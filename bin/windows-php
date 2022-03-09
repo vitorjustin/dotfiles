@@ -1,0 +1,9 @@
+#!/bin/bash
+# Pass all the arguments to PHP.
+output=$(php "$@")
+# Perform UNIX->WINDOWS syntax replacements.
+output="${output//$'\n'/$'\r'$'\n'}"
+output="${output//\/mnt\/d/D:}"
+output="${output//\//\\}"
+# Echo corrected output.
+echo $output
