@@ -5,6 +5,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_THEME="powerlevel10k/powerlevel10k"
+
+source $ZSH/oh-my-zsh.sh
+#source ~/.profile
+
 # zinit setup
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -23,11 +29,24 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit light redxtech/zsh-asdf-direnv
+
+#zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit snippet OMZP::docker
+zinit snippet OMZP::git
+
+zinit ice atclone"dircolors -b LS_COLORS > clrs.zsh" \
+    atpull'%atclone' pick"clrs.zsh" nocompile'!' \
+    atload'zstyle ":completion:*" list-colors “${(s.:.)LS_COLORS}”'
+zinit light trapd00r/LS_COLORS
 
 # Load completions
 autoload -Uz compinit && compinit
-
 zinit cdreplay -q
+
+# nvim
+export PATH="$PATH:/opt/nvim-linux64/bin"
+export EDITOR='nvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -57,51 +76,27 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
-# Aliases
-alias vim='nvim'
-alias c='clear'
-alias nnn='nnn -e'
-alias pipes='Scripts/pipes.sh'
-
-# exa aliases
-alias ls='eza --group-directories-first --icons'
-alias la='eza -a --group-directories-first --icons'
-alias l='eza -l --group-directories-first --icons'
-alias ll='eza -la --group-directories-first --icons'
-
-
-export PATH=$HOME/.local/bin:$PATH
-
-# nvm setup
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 
-# bun completions
-[ -s "/home/ashish/.bun/_bun" ] && source "/home/ashish/.bun/_bun"
+# bat
+export BAT_THEME="Coldark-Dark"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# eza
+export FPATH="/home/vitorjustin/.libs/eza/completions/zsh:$FPATH"
 
-# pnpm
-export PNPM_HOME="/home/ashish/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end 
-
-# go
-export PATH=$PATH:/usr/local/go/bin
-
-# gemgo
-if [ -f ~/.gemgo_env ]; then
-  source ~/.gemgo_env
-fi
+# cargo
+export PATH="$PATH:/home/vitorjustin/.cargo/bin"
 
 # zoxide
+export PATH=$PATH:$HOME/.local/bin
 export _ZO_ECHO='1'
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
+
+[ -f ~/.aliases.zsh ] && source ~/.aliases.zsh
+
+source ~/.config/fzf.conf
+#source ~/.profile
+source ~/.config/ssh.conf
+
+# compress images
+alias png="oxipng -s --alpha --dir="compressed" *.png"

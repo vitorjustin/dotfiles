@@ -1,0 +1,65 @@
+<application>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+    <option name="defaultPosition" value="Top" />
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="inheritors" />
+        <option value="references" />
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
+  </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="enabledOptions">
+      <map>
+        <entry key="js.type.hints#function.returns" value="true" />
+        <entry key="js.type.hints#non.paren.single.param" value="true" />
+        <entry key="js.type.hints#parameters.in.parens" value="true" />
+        <entry key="js.type.hints#variables.and.fields" value="true" />
+        <entry key="sql.column.names.inlay.hints#sql.show.column.names.for.asterisk" value="true" />
+        <entry key="sql.column.names.inlay.hints#sql.show.column.names.for.set.operations" value="true" />
+        <entry key="sql.column.names.inlay.hints#sql.show.column.names.in.insert.values" value="true" />
+        <entry key="sql.column.names.inlay.hints#sql.show.column.names.in.select" value="true" />
+        <entry key="sql.join.cardinality.hints#full.join" value="true" />
+        <entry key="sql.join.cardinality.hints#inner.join" value="true" />
+        <entry key="sql.join.cardinality.hints#left.join" value="true" />
+        <entry key="sql.join.cardinality.hints#right.join" value="true" />
+        <entry key="ts.type.hints#function.returns" value="true" />
+        <entry key="ts.type.hints#non.paren.single.param" value="true" />
+        <entry key="ts.type.hints#parameters.in.parens" value="true" />
+        <entry key="ts.type.hints#variables.and.fields" value="true" />
+      </map>
+    </option>
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="qodana.yaml.inspection.descriptions" value="true" />
+        <entry key="sql.column.names.inlay.hints" value="true" />
+        <entry key="sql.join.cardinality.hints" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN_ONLY_ON_HOVER" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value=".references" />
+  </component>
+</application>

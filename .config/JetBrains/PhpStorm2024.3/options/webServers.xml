@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c76141c3-30a5-47b5-a6b3-c52836abdf55" name="CBR 2021" url="http://cbr.local">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</application>
