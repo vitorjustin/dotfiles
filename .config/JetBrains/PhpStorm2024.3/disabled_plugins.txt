@@ -1,0 +1,14 @@
+AngularJS
+PerforceDirectPlugin
+Refactor-X
+Subversion
+XPathView
+com.deadlock.scsyntax
+com.intellij.php.phpt
+com.jetbrains.php.behat
+com.jetbrains.php.codeception
+com.jetbrains.php.drupal
+com.jetbrains.php.joomla
+hg4idea
+org.jetbrains.plugins.less
+org.jetbrains.plugins.vue

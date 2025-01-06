@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="NEON Pro Group" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>

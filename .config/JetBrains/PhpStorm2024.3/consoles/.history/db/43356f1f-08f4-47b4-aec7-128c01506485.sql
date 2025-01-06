@@ -1,0 +1,1 @@
+select price, cm_cost_internal, farm_cost from neorama.proposals order by id desc limit 30;

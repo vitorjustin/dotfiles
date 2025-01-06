@@ -1,0 +1,21 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\Illuminate\Support\Facades\Route.middleware(middleware)" />
+        <added pattern="\Illuminate\Support\Facades\Route.prefix(prefix)" />
+        <added pattern="\Illuminate\Routing\RouteRegistrar.name(value)" />
+        <added pattern="\Illuminate\Support\Facades\Route.get(uri,action)" />
+        <added pattern="\Illuminate\Support\Facades\Route.post(uri,action)" />
+        <added pattern="\Illuminate\Support\Facades\Route.put(uri,action)" />
+        <added pattern="\Illuminate\Support\Facades\Route.delete(uri,action)" />
+        <added pattern="\Illuminate\Routing\Route.name(name)" />
+        <added pattern="\Illuminate\Support\Facades\Route.patch(uri,action)" />
+        <added pattern="\Illuminate\Support\Facades\Route.name(value)" />
+        <added pattern="\Illuminate\Routing\RouteRegistrar.prefix(prefix)" />
+        <added pattern="\Illuminate\Routing\RouteRegistrar.group(callback)" />
+        <removed pattern="" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

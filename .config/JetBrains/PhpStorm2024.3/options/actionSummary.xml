@@ -1,0 +1,454 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="4" l="1734722075414" />
+    </e>
+    <e n="$Delete">
+      <i c="3" l="1733946768937" />
+    </e>
+    <e n="$Paste">
+      <i c="1" l="1733923247154" />
+    </e>
+    <e n="$Redo">
+      <i c="8" l="1734731573292" />
+    </e>
+    <e n="$Undo">
+      <i c="441" l="1734732443296" />
+    </e>
+    <e n="AIAssistant.Editor.AskAiAssistantInEditor">
+      <i c="2" l="1734722018299" />
+    </e>
+    <e n="ActivateDebugToolWindow">
+      <i c="10" l="1734702393531" />
+    </e>
+    <e n="ChangesView.AddUnversioned">
+      <i c="1" l="1733944999785" />
+    </e>
+    <e n="ChangesView.GroupBy.Directory">
+      <i c="1" l="1733863856323" />
+    </e>
+    <e n="ChangesView.Refresh">
+      <i c="1" l="1733839408482" />
+    </e>
+    <e n="ChangesView.Revert">
+      <i c="4" l="1733839558277" />
+    </e>
+    <e n="CloseContent">
+      <i c="4" l="1734697812566" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="7" l="1734721524518" />
+    </e>
+    <e n="CommentByBlockComment">
+      <i c="16" l="1734733221086" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="82" l="1734733231896" />
+    </e>
+    <e n="Console.Jdbc.Execute">
+      <i c="1" l="1734697877800" />
+    </e>
+    <e n="CopyContentRootPath">
+      <i c="3" l="1733864243501" />
+    </e>
+    <e n="CopyReference">
+      <i c="1" l="1734702539970" />
+    </e>
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="1" l="1734694015164" />
+    </e>
+    <e n="DatabaseView.Ddl.AlterObject">
+      <i c="1" l="1734694108248" />
+    </e>
+    <e n="DatabaseView.ImportNew">
+      <i c="1" l="1734694270922" />
+    </e>
+    <e n="DatabaseView.PropertiesAction">
+      <i c="1" l="1734694230485" />
+    </e>
+    <e n="DatabaseView.Refresh">
+      <i c="1" l="1734696464217" />
+    </e>
+    <e n="DatabaseView.Restore.Native">
+      <i c="1" l="1734694285867" />
+    </e>
+    <e n="DatabaseView.ShowDiff">
+      <i c="1" l="1734694243425" />
+    </e>
+    <e n="DatabaseViewOptions">
+      <i c="2" l="1734694254336" />
+    </e>
+    <e n="Docker.ImportContexts">
+      <i c="1" l="1734693774619" />
+    </e>
+    <e n="Docker.RemoteServers.ConnectServer">
+      <i c="1" l="1733916201827" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1271" l="1734734191709" />
+    </e>
+    <e n="EditorBreadcrumbsHideBoth">
+      <i c="1" l="1733834076627" />
+    </e>
+    <e n="EditorBreadcrumbsShowAbove">
+      <i c="4" l="1733834077662" />
+    </e>
+    <e n="EditorBreadcrumbsShowBelow">
+      <i c="4" l="1733834078181" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="346" l="1734734185492" />
+    </e>
+    <e n="EditorChooseLookupItemDot">
+      <i c="1" l="1734731260727" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="6" l="1734721769209" />
+    </e>
+    <e n="EditorCopy">
+      <i c="260" l="1734734177694" />
+    </e>
+    <e n="EditorCut">
+      <i c="62" l="1734732277733" />
+    </e>
+    <e n="EditorDelete">
+      <i c="15" l="1734731661476" />
+    </e>
+    <e n="EditorDeleteLine">
+      <i c="1" l="1733920572659" />
+    </e>
+    <e n="EditorDown">
+      <i c="2105" l="1734734198575" />
+    </e>
+    <e n="EditorDownWithSelection">
+      <i c="192" l="1734732567205" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="47" l="1734732647795" />
+    </e>
+    <e n="EditorEnter">
+      <i c="472" l="1734732603556" />
+    </e>
+    <e n="EditorEscape">
+      <i c="42" l="1734732433197" />
+    </e>
+    <e n="EditorGutterToggleGlobalStickyLines">
+      <i c="4" l="1733834046014" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="5" l="1734699842612" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1560" l="1734734181560" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="210" l="1734732771754" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="334" l="1734734168899" />
+    </e>
+    <e n="EditorLineEndWithSelection">
+      <i c="103" l="1734733249181" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="104" l="1734732609321" />
+    </e>
+    <e n="EditorLineStartWithSelection">
+      <i c="125" l="1734733220797" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="377" l="1734734176224" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="345" l="1734734177157" />
+    </e>
+    <e n="EditorPaste">
+      <i c="347" l="1734734182484" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="491" l="1734734175196" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="879" l="1734734176849" />
+    </e>
+    <e n="EditorRight">
+      <i c="1004" l="1734734172368" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="175" l="1734732646516" />
+    </e>
+    <e n="EditorSelectWord">
+      <i c="247" l="1734733186265" />
+    </e>
+    <e n="EditorTab">
+      <i c="21" l="1734732397769" />
+    </e>
+    <e n="EditorToggleUseSoftWraps">
+      <i c="2" l="1733834032440" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="1" l="1734694578794" />
+    </e>
+    <e n="EditorUp">
+      <i c="1973" l="1734734198010" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="540" l="1734733275534" />
+    </e>
+    <e n="ExpressionTypeInfo">
+      <i c="11" l="1733945575568" />
+    </e>
+    <e n="FindInPath">
+      <i c="12" l="1734721071244" />
+    </e>
+    <e n="FindUsages">
+      <i c="3" l="1734698993778" />
+    </e>
+    <e n="Git.Stage.AcceptYours">
+      <i c="1" l="1734093329371" />
+    </e>
+    <e n="Git.Stage.Ui.Settings">
+      <i c="3" l="1733863854662" />
+    </e>
+    <e n="Git.Uncommit">
+      <i c="1" l="1734006731236" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="63" d="1" l="1734734806256" k="1733916733577" />
+    </e>
+    <e n="GotoTest">
+      <i c="2" l="1733916738263" />
+    </e>
+    <e n="GotoTypeDeclaration">
+      <i c="1" l="1734092264408" />
+    </e>
+    <e n="HighlightUsagesInFile">
+      <i c="1" d="1" l="1733920025932" k="1733920025932" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="100" l="1734732455436" />
+    </e>
+    <e n="InsertInlineCompletionLineAction">
+      <i c="4" l="1733949775403" />
+    </e>
+    <e n="InsertInlineCompletionWordAction">
+      <i c="1" l="1733923810268" />
+    </e>
+    <e n="InspectCode">
+      <i c="1" l="1733916283514" />
+    </e>
+    <e n="IntroduceVariable">
+      <i c="1" l="1734008021341" />
+    </e>
+    <e n="Jdbc.OpenConsole.Any">
+      <i c="2" l="1734697831817" />
+    </e>
+    <e n="Jdbc.OpenEditor.DDL">
+      <i c="1" l="1734694172940" />
+    </e>
+    <e n="MethodDown">
+      <i c="19" l="1734694663077" />
+    </e>
+    <e n="MethodUp">
+      <i c="26" l="1734694663487" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="5" l="1734642776271" />
+    </e>
+    <e n="MoveLineDown">
+      <i c="27" l="1734732630069" />
+    </e>
+    <e n="MoveLineUp">
+      <i c="20" l="1734732630465" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1733837734716" />
+    </e>
+    <e n="NewScratchFile">
+      <i c="2" d="1" l="1733945010597" k="1733945010597" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="6" l="1734698110719" />
+    </e>
+    <e n="OptimizeImports">
+      <i c="3" l="1734732047111" />
+    </e>
+    <e n="PCAnalyzeVulnerableDependencies">
+      <i c="1" l="1733916277604" />
+    </e>
+    <e n="ParameterInfo">
+      <i c="9" l="1734723172304" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="2" l="1733859513696" />
+    </e>
+    <e n="Pest.New.File.From.Class">
+      <i c="1" d="1" l="1733828896102" k="1733828896102" />
+    </e>
+    <e n="PhpNewFile">
+      <i c="1" l="1733837739654" />
+    </e>
+    <e n="ReformatCode">
+      <i c="6" l="1734732046812" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1733863094867" />
+    </e>
+    <e n="ReplaceInPath">
+      <i c="2" l="1733917184899" />
+    </e>
+    <e n="Rerun">
+      <i c="5" l="1733920555812" />
+    </e>
+    <e n="RestartIde">
+      <i c="1" d="1" l="1733830118211" k="1733830118211" />
+    </e>
+    <e n="Run">
+      <i c="8" d="2" l="1733916758965" k="1733916758965" />
+    </e>
+    <e n="RunAnything">
+      <i c="1" l="1733830785403" />
+    </e>
+    <e n="RunClass">
+      <i c="4" l="1733920583530" />
+    </e>
+    <e n="SaveAll">
+      <i c="727" l="1734734199150" />
+    </e>
+    <e n="SaveAs">
+      <i c="4" l="1734722775029" />
+    </e>
+    <e n="ServiceView.ActivateDockerMainServiceViewContributor">
+      <i c="1" d="1" l="1734693815333" k="1734693815333" />
+    </e>
+    <e n="SettingsSyncOpenSettingsAction">
+      <i c="4" l="1733827705719" />
+    </e>
+    <e n="SettingsSyncStatusAction">
+      <i c="2" l="1733858181712" />
+    </e>
+    <e n="ShowReformatFileDialog">
+      <i c="1" l="1733921771644" />
+    </e>
+    <e n="ShowUmlDiagram">
+      <i c="1" l="1734694186349" />
+    </e>
+    <e n="SpeedSearch">
+      <i c="2" l="1733862384076" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1733836147895" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="8" l="1733923835456" />
+    </e>
+    <e n="Tree-selectChild">
+      <i c="4" l="1734694224917" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="30" l="1734701175200" />
+    </e>
+    <e n="Tree-selectParent">
+      <i c="6" l="1734694225490" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="27" l="1734701174834" />
+    </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$2">
+      <i c="1" l="1734694027362" />
+    </e>
+    <e n="com.intellij.diff.actions.impl.OpenInEditorAction">
+      <i c="5" l="1734702346549" />
+    </e>
+    <e n="com.intellij.diff.impl.DiffRequestProcessor$MyNextDifferenceAction">
+      <i c="8" l="1733920714689" />
+    </e>
+    <e n="com.intellij.diff.impl.DiffRequestProcessor$MyPrevDifferenceAction">
+      <i c="5" l="1733920710600" />
+    </e>
+    <e n="com.intellij.diff.merge.MergeThreesideViewer$ApplyNonConflictsAction">
+      <i c="1" l="1734093305324" />
+    </e>
+    <e n="com.intellij.diff.tools.simple.SimpleDiffViewer$ReplaceSelectedChangesAction">
+      <i c="11" l="1734702221080" />
+    </e>
+    <e n="com.intellij.execution.actions.BaseRunConfigurationAction$1">
+      <i c="2" l="1733920595755" />
+    </e>
+    <e n="com.intellij.execution.actions.RunCurrentFileExecutorAction">
+      <i c="1" l="1733829546484" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$ClearThisConsoleAction">
+      <i c="1" l="1734693930002" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$createConsoleActions$switchSoftWrapsAction$1">
+      <i c="2" l="1734693923257" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createCurrentFileWithInlineActions$2">
+      <i c="3" l="1733836149723" />
+    </e>
+    <e n="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction">
+      <i c="3" l="1733919666910" />
+    </e>
+    <e n="com.intellij.ml.llm.core.codeGeneration.popup.DiscardAction">
+      <i c="2" l="1734722021559" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1734693615414" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="2" l="1733839741046" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="11" l="1734093318838" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="18" l="1734696631955" />
+    </e>
+    <e n="com.intellij.openapi.ui.MasterDetailsComponent$MyDeleteAction">
+      <i c="3" l="1733829342720" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="4" l="1733839713149" />
+    </e>
+    <e n="com.intellij.openapi.vcs.changes.actions.diff.lst.LocalTrackerDiffUtil$PartiallyExcludeSelectedLinesFromCommitAction">
+      <i c="1" l="1733839690863" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="2" l="1733829506601" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveDownAction">
+      <i c="7" l="1733944934584" />
+    </e>
+    <e n="com.intellij.vcs.commit.CommitActionsPanel$DefaultCommitAction">
+      <i c="15" l="1734702437892" />
+    </e>
+    <e n="com.jetbrains.php.composer.ComposerDetectionManager$1">
+      <i c="1" l="1733754357755" />
+    </e>
+    <e n="com.jetbrains.php.config.interpreters.PhpInterpretersConfigurable$2">
+      <i c="3" l="1733829154905" />
+    </e>
+    <e n="com.jetbrains.php.debug.validation.PhpValidateWebServerAction">
+      <i c="2" l="1733829232867" />
+    </e>
+    <e n="com.jetbrains.php.testFramework.PhpTestFrameworksConfigurable$3">
+      <i c="1" l="1733829239367" />
+    </e>
+    <e n="com.jetbrains.php.tools.quality.QualityToolConfigurableList$1">
+      <i c="1" l="1733829288266" />
+    </e>
+    <e n="com.jetbrains.php.tools.quality.QualityToolConfigurableList$MyDeleteQualityToolConfigurationAction">
+      <i c="2" l="1733829287691" />
+    </e>
+    <e n="com.jetbrains.php.ui.PhpNamedCloneableItemsListEditor$AddAction">
+      <i c="2" l="1733829338088" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="3" l="1733829553923" />
+    </e>
+    <e n="performancePlugin.ShowMemoryDialogAction">
+      <i c="1" l="1733828850674" />
+    </e>
+  </component>
+</application>

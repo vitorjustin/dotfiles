@@ -1,0 +1,52 @@
+<keymap version="1" name="Windows copy 1" parent="$default">
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.SelectRow" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="OverrideMethods" />
+  <action id="QuickChangeScheme">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="RerunTests" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RunDashboard.Run" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="Uml.ShowDiff" />
+</keymap>
