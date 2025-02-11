@@ -8,8 +8,13 @@ alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
 
 # bat
+# https://github.com/sharkdp/bat/issues/954#issuecomment-1293173319
+biff () {
+  diff $@|bat -l diff
+}
+
 # https://github.com/sharkdp/bat?tab=readme-ov-file#git-diff
-batdiff() {
+gitdiff() {
   git diff --name-only --relative --diff-filter=d | xargs bat --diff
 }
 
@@ -17,6 +22,8 @@ batdiff() {
 battail() {
   tail -f "$1" | bat --paging=never -l log
 }
+
+alias fiff="fancy-diff"
 
 ## EZA (better ls) or custom ls aliases
 if type eza >/dev/null 2>&1; then

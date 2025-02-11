@@ -29,7 +29,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
-zinit light redxtech/zsh-asdf-direnv
+zinit light z-shell/zsh-diff-so-fancy
 
 #zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit snippet OMZP::docker
