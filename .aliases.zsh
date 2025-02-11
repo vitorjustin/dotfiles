@@ -8,8 +8,13 @@ alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
 
 # bat
+# https://github.com/sharkdp/bat/issues/954#issuecomment-1293173319
+biff () {
+  diff $@|bat -l diff
+}
+
 # https://github.com/sharkdp/bat?tab=readme-ov-file#git-diff
-batdiff() {
+gitdiff() {
   git diff --name-only --relative --diff-filter=d | xargs bat --diff
 }
 
@@ -17,6 +22,8 @@ batdiff() {
 battail() {
   tail -f "$1" | bat --paging=never -l log
 }
+
+alias fiff="fancy-diff"
 
 ## EZA (better ls) or custom ls aliases
 if type eza >/dev/null 2>&1; then
@@ -61,3 +68,4 @@ alias s-neo-homolog="ssh -o ServerAliveInterval=60 -p 51439 homologapi@45.178.18
 alias s-neo-root="ssh -p 51439 -o ServerAliveInterval=60 root@45.178.180.228"
 alias s-neo-global-root="ssh -p 51439 -o ServerAliveInterval=60 root@45.178.182.21"
 alias s-neo-global-prod="ssh -p 51439 -o ServerAliveInterval=60 gblprodapi@45.178.182.21"
+alias s-dbc-homolog="ssh -o ServerAliveInterval=60 -p 52300 vitor.bitfans@144.22.132.245"
