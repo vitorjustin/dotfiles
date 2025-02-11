@@ -62,7 +62,7 @@ def createAccessor(attr) {
     return { feature ->
       def data = defaultAccessor(feature)
       if (data instanceof Geometry) {
-        JTS.transform(defaultAccessor(feature), transform)
+        JTS.transform(data, transform).toString()
       }
       else {
         data

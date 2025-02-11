@@ -71,21 +71,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="2ikp1gzmxcxsn" />
+    <leaf ideFingerprint="2netzui3mrhyn" />
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "PHP": {
-      "usageCount": 143,
-      "lastUsed": 1734734798991
+      "usageCount": 349,
+      "lastUsed": 1737413729214
     },
     "Markdown": {
       "usageCount": 3,
       "lastUsed": 1733860631098
     },
     "DIFF": {
-      "usageCount": 17,
-      "lastUsed": 1734702298979
+      "usageCount": 29,
+      "lastUsed": 1737411904119
     },
     ".env file": {
       "usageCount": 11,
@@ -104,8 +104,8 @@
       "lastUsed": 1733836416480
     },
     "Shell Script": {
-      "usageCount": 4,
-      "lastUsed": 1733946709511
+      "usageCount": 13,
+      "lastUsed": 1736810167340
     },
     "SmartyConfig": {
       "usageCount": 1,
@@ -130,6 +130,14 @@
     "Database Element": {
       "usageCount": 2,
       "lastUsed": 1734697804956
+    },
+    "CSV/TSV": {
+      "usageCount": 1,
+      "lastUsed": 1736621189754
+    },
+    "Blade": {
+      "usageCount": 3,
+      "lastUsed": 1736791303308
     }
   }
 }]]></component>
@@ -137,28 +145,17 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1274" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Actions/ProjectExecution/Reports/CalculateProgressionsAreaProposalField.php" />
+          <option name="fileUrl" value="mock:///TabPreviewDiffVirtualFile" />
           <option name="selected" value="false" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="16742" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/AreasExportController.php" />
+          <option name="caretOffset" value="894" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/config/neorama.php" />
           <option name="selected" value="false" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="2983" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/LoadProgressions.php" />
-          <option name="selected" value="false" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="7915" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Models/Proposal.php" />
-          <option name="selected" value="false" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="290" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Models/ProductionStatus.php" />
+          <option name="caretOffset" value="2029" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/app/Actions/Supplier/UpdateSupplier.php" />
         </OpenedFileInfo>
       </list>
     </option>
@@ -174,6 +171,27 @@
       <find>SheetReader</find>
       <find>SimpleExcelReader</find>
       <find>consumed_structure_cost</find>
+      <find>SimpleExcelWriter::create</find>
+      <find>setApp(</find>
+      <find>InternalSupplierCreated</find>
+      <find>Dados do fornece</find>
+      <find>SupplierUpdated</find>
+      <find>PET sincroniza</find>
+      <find>InstallmentSynchronized(</find>
+      <find>omie_enable</find>
+      <find>OmieAppSelector</find>
+      <find>Novo fornecedor criad</find>
+      <find>Attribute::get</find>
+      <find>buildPaymentsForDeletion</find>
+      <find>Options\S</find>
+      <find>external_supplier_created</find>
+      <find>installment_syncronized</find>
+      <find>atualizada para</find>
+      <find>Omie webhook</find>
+      <find>already paid</find>
+      <find>log</find>
+      <find>supplier_updated</find>
+      <find>notifyC</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,10 +201,22 @@
       <dir>$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/ProjectExecution</dir>
       <dir>$PROJECT_DIR$/tests/</dir>
       <dir>$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet</dir>
-      <dir>$PROJECT_DIR$/config</dir>
       <dir>$PROJECT_DIR$/app/Console/Commands/Importers</dir>
-      <dir>$PROJECT_DIR$/app</dir>
       <dir>$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports</dir>
+      <dir>$PROJECT_DIR$/app/Console/Commands/Omie</dir>
+      <dir>$PROJECT_DIR$/app/Notifications</dir>
+      <dir>$PROJECT_DIR$/app/Services/Omie/Notifications</dir>
+      <dir>$PROJECT_DIR$/app/Services/Omie</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/app/Models</dir>
+      <dir>$PROJECT_DIR$/tests/Feature/Actions/Pet</dir>
+      <dir>$PROJECT_DIR$/app/Services/Omie/Actions</dir>
+      <dir>$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/Options</dir>
+      <dir>$PROJECT_DIR$/app/Services/Omie/Webhooks</dir>
+      <dir>$PROJECT_DIR$/app/Http/Controllers/V1/Webhook</dir>
+      <dir>$PROJECT_DIR$/tests/Feature/Services/Omie/Webhooks</dir>
+      <dir>$PROJECT_DIR$/tests</dir>
+      <dir>$PROJECT_DIR$/config</dir>
     </dirStrings>
   </component>
   <component name="FindInProjectScope">
@@ -209,57 +239,57 @@
   <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory"><![CDATA[{
   "changedPaths": [
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Enum/OmieApp.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Models/User.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Actions/SyncInstallmentsToOmieTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/.env.example",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/A/ATest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/ProjectExecution/Reports/AreasIndexControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/ProjectExecution/Reports/TotalIndexControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Traits/MockSQLFunctions.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution/IndexController.php",
-    "/home/vitorjustin/sites/neorama-manager-api/phpunit.xml",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/ProjectExecution/IndexControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Actions/Production/GenerateFinancialReportForProjectTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Actions/ProjectExecution/CreateOrUpdateProjectExecutionTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/ProjectExecution/Progressions/UpdateControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Reports/ProposalsFunnel/IndexPortionsControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/CalculateProgressions/CalculateProgressionsServiceTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/PetsReport/PetsYearlyReportTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/.scripts/deploy-to-homolog.sh",
-    "/home/vitorjustin/sites/neorama-manager-api/app/DataObjects/PetPaymentInstallmentData.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Requests/V1/Pet/SyncRequest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Pet/SyncController.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Pet/SyncControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Pet/Payment/ManageInstallmentsControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/Project/ProjectBillingControllerTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Webhooks/HandleInstallmentUpdate.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Webhooks/HandleInstallmentUpdateTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/config/notifications.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Models/Pet.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/PetProject/IndexController.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Notifications/PetSynchronized.php",
-    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Notifications/PetSynchronizedTest.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/DataObjects/OmieDepartment.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions/ListDepartments.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions/CreateDepartment.php",
-    "/home/vitorjustin/sites/neorama-manager-api/config/neorama.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie/OmieCreateDepartments.php",
-    "/home/vitorjustin/.config/JetBrains/PhpStorm2024.3/scratches/scratch.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Models/Employee.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie/OmieDownloadSuppliers.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/OmieAppSelector.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/OmieService.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Actions/ProjectExecution/Reports/CalculateProgressionsAreaProposalField.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie/OmieSyncExternalSuppliers.php",
     "/home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie/OmieSyncInternalSuppliers.php",
-    "/home/vitorjustin/sites/neorama-manager-api/.env",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Helpers/decimal.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/ProjectExecutionReportService/LoadProgressionsProposals.php",
-    "/home/vitorjustin/.config/JetBrains/PhpStorm2024.3/consoles/db/43356f1f-08f4-47b4-aec7-128c01506485/console.sql",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Services/ProjectExecutionReportService/LoadProgressions.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Models/Proposal.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Actions/ProjectExecution/Reports/CalculateProgressionsProposalField.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution/Reports/AreasExportController.php",
-    "/home/vitorjustin/sites/neorama-manager-api/app/Actions/ProjectExecution/Reports/CalculateProgressionsAreaProposalField.php"
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Webhooks/HandleSupplierUpsert.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Notifications/InternalSupplierCreated.php",
+    "/home/vitorjustin/sites/neorama-manager-api/resources/views/mail/omie/internal-supplier-created.blade.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Notifications/InternalSupplierCreatedTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Webhooks/HandleSupplierUpsertTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/.scripts/deploy-to-prod.sh",
+    "d8e7f6ca:/home/vitorjustin/sites/neorama-manager-api:/home/vitorjustin/sites/neorama-manager-api/.scripts/deploy-to-homolog.sh",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Notifications/SupplierUpdated.php",
+    "/home/vitorjustin/sites/neorama-manager-api/resources/views/mail/omie/pet-synchronized.blade.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Notifications/PetSynchronizedTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Notifications/InstallmentSynchronized.php",
+    "/home/vitorjustin/sites/neorama-manager-api/resources/views/mail/omie/installment-synchronized.blade.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/OmieService.php",
+    "/home/vitorjustin/sites/neorama-manager-api/.scripts/deploy-to-homolog.sh",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions/CreateSupplier.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Jobs/OmieCreateExternalSupplier.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Jobs/OmieCreateExternalSupplierTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Notifications/ExternalSupplierCreated.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Requests/V1/Pet/SyncRequest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Models/Supplier.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Actions/Pet/LoadPetProjectCompleteResourceTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Pet/SyncController.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Pet/Options/SupplierController.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Policies/SupplierPolicy.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Webhooks/HandleWebhook.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Webhooks/HandleInstallmentPaymentUpdate.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Webhooks/HandleInstallmentPaymentUpdateTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Traits/SupplierAuthorizationTrait.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Pet/Options/SupplierControllerTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Pet/IndexController.php",
+    "/home/vitorjustin/sites/neorama-manager-api/config/notifications.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Pet/SyncControllerTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/OmieArchTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/OmieAppSelectorTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Services/Omie/OmieAppSelectorTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Enum/PaymentMethod.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Enum/OmieApp.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie/OmieCreateDepartments.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Actions/SyncInstallmentsToOmieTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/DataObjects/PaymentInstallment.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions/SyncInstallmentsToOmie.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Actions/UpsertPaymentTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/OmieAppSelectorTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http/Controllers/V1/Supplier/UpdateControllerTest.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions/UpsertPayment.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/OmieAppSelector.php",
+    "/home/vitorjustin/sites/neorama-manager-api/config/neorama.php",
+    "/home/vitorjustin/sites/neorama-manager-api/app/Actions/Supplier/UpdateSupplier.php"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -270,6 +300,9 @@
     </option>
   </component>
   <component name="LanguageUsageStatistics">
+    <language id="Blade">
+      <summary usageCount="3" lastUsage="1736791303308" />
+    </language>
     <language id="Dockerfile">
       <summary usageCount="1" lastUsage="1733836397031" />
     </language>
@@ -286,16 +319,19 @@
       <summary usageCount="3" lastUsage="1733860631098" />
     </language>
     <language id="PHP">
-      <summary usageCount="143" lastUsage="1734734798991" />
+      <summary usageCount="349" lastUsage="1737413729214" />
     </language>
     <language id="SQL">
       <summary usageCount="4" lastUsage="1734697835018" />
     </language>
     <language id="Shell Script">
-      <summary usageCount="4" lastUsage="1733946709511" />
+      <summary usageCount="13" lastUsage="1736810167340" />
     </language>
     <language id="SmartyConfig">
       <summary usageCount="1" lastUsage="1733836421306" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="1" lastUsage="1736621189754" />
     </language>
     <language id="XML">
       <summary usageCount="2" lastUsage="1733840021155" />
@@ -336,41 +372,9 @@
               <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution/Reports}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Console}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Console/Commands}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
@@ -383,18 +387,50 @@
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/ProjectExecutionReportService}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/db-dumps}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/db-dumps}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/db-dumps/last-import}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neorama-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Actions}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -509,6 +545,96 @@
                     <presentation>
                       <attributes>
                         <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Omie" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Console/Commands/Omie}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieCreateDepartments.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieCreateDepartments.php" />
+                        <item name="OmieCreateDepartments.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieDownloadSuppliers.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieDownloadSuppliers.php" />
+                        <item name="OmieDownloadSuppliers.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieList.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieList.php" />
+                        <item name="OmieList.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieSyncExternalSuppliers.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieSyncExternalSuppliers.php" />
+                        <item name="OmieSyncExternalSuppliers.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieSyncInternalSuppliers.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieSyncInternalSuppliers.php" />
+                        <item name="OmieSyncInternalSuppliers.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieTestingCreateAndDeletePayment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieTestingCreateAndDeletePayment.php" />
+                        <item name="OmieTestingCreateAndDeletePayment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieTestingCreatePayment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieTestingCreatePayment.php" />
+                        <item name="OmieTestingCreatePayment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieTestingCreateSupplier.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieTestingCreateSupplier.php" />
+                        <item name="OmieTestingCreateSupplier.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Omie/OmieTestingUpsertOnePayment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieTestingUpsertOnePayment.php" />
+                        <item name="OmieTestingUpsertOnePayment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/Utils" />
                         </map>
                       </attributes>
@@ -521,7 +647,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/ApplyCancelledStatusUpdates.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ApplyCancelledStatusUpdates.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ApplyCancelledStatusUpdates.php" />
                       <item name="ApplyCancelledStatusUpdates.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                     <presentation>
@@ -530,7 +656,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/ApplyExpertisesCostToProposals.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ApplyExpertisesCostToProposals.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ApplyExpertisesCostToProposals.php" />
                       <item name="ApplyExpertisesCostToProposals.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                     <presentation>
@@ -539,7 +665,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/CreateProductionReportSnapshot.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateProductionReportSnapshot.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateProductionReportSnapshot.php" />
                       <item name="CreateProductionReportSnapshot.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                     <presentation>
@@ -548,7 +674,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/CreateSalesReportSnapshot.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateSalesReportSnapshot.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateSalesReportSnapshot.php" />
                       <item name="CreateSalesReportSnapshot.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                     <presentation>
@@ -557,7 +683,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/SaveProductionReportHistory.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SaveProductionReportHistory.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SaveProductionReportHistory.php" />
                       <item name="SaveProductionReportHistory.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                     <presentation>
@@ -566,7 +692,7 @@
                           <entry key="filePath" value="$PROJECT_DIR$/app/Console/Commands/SaveSalesReportHistory.php" />
                         </map>
                       </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SaveSalesReportHistory.php" />
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SaveSalesReportHistory.php" />
                       <item name="SaveSalesReportHistory.php" type="88303cf5:PhpFileNode" />
                     </presentation>
                   </presentation>
@@ -633,312 +759,6 @@
                   </attributes>
                   <data isLeaf="false" text="Http" />
                   <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="Controllers" />
-                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers}" type="462c0819:PsiDirectoryNode" />
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/Auth" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="Auth" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/Auth}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/Company" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Company" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/Company}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/Project" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="Project" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/Project}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/Utils" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="Utils" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/Utils}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="V1" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1}" type="462c0819:PsiDirectoryNode" />
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/BusinessNumbers" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="BusinessNumbers" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/BusinessNumbers}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Employee" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Employee" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Employee}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Equipment" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Equipment" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Equipment}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/EquipmentRentalSite" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="EquipmentRentalSite" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/EquipmentRentalSite}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Pet" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Pet" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Pet}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/PetProject" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="PetProject" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/PetProject}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Production" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Production" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Production}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Project" />
-                          </map>
-                        </attributes>
-                        <data isLeaf="false" text="Project" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Project}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="ProjectExecution" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution}" type="462c0819:PsiDirectoryNode" />
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Progressions" />
-                            </map>
-                          </attributes>
-                          <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Progressions" />
-                          <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution/Progressions}" type="462c0819:PsiDirectoryNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports" />
-                            </map>
-                          </attributes>
-                          <data isLeaf="false" text="Reports" />
-                          <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/ProjectExecution/Reports}" type="462c0819:PsiDirectoryNode" />
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/AreasExportController.php" />
-                              </map>
-                            </attributes>
-                            <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="AreasExportController.php" />
-                            <item name="AreasExportController.php" type="88303cf5:PhpFileNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/AreasIndexController.php" />
-                              </map>
-                            </attributes>
-                            <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="AreasIndexController.php" />
-                            <item name="AreasIndexController.php" type="88303cf5:PhpFileNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/TotalIndexController.php" />
-                              </map>
-                            </attributes>
-                            <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TotalIndexController.php" />
-                            <item name="TotalIndexController.php" type="88303cf5:PhpFileNode" />
-                          </presentation>
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/IndexController.php" />
-                            </map>
-                          </attributes>
-                          <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="IndexController.php" />
-                          <item name="IndexController.php" type="88303cf5:PhpFileNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/UpdateSetupController.php" />
-                            </map>
-                          </attributes>
-                          <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="UpdateSetupController.php" />
-                          <item name="UpdateSetupController.php" type="88303cf5:PhpFileNode" />
-                        </presentation>
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Reports" />
-                          </map>
-                        </attributes>
-                        <data isLeaf="false" text="Reports" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Reports}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Sections" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Sections" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Sections}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Supplier" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Supplier" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Supplier}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/SupplierService" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="SupplierService" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/SupplierService}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/V1/Timesheet" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Timesheet" />
-                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/V1/Timesheet}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/WebComponents" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="WebComponents" />
-                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Controllers/WebComponents}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ApiController.php" />
-                      <item name="ApiController.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/nodes/abstractClass.svg" iconPlugin="com.mallowigi" isLeaf="true" text="Controller.php" />
-                      <item name="Controller.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectController.php" />
-                      <item name="ProjectController.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/Http/Middleware" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="Middleware" />
-                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Middleware}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/Http/Requests" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="Requests" />
-                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Requests}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/Http/Resources" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="Resources" />
-                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Http/Resources}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -1041,6 +861,231 @@
                   <presentation>
                     <attributes>
                       <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Omie" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Actions" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Actions}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/CreateDepartment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateDepartment.php" />
+                        <item name="CreateDepartment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/CreateSupplier.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CreateSupplier.php" />
+                        <item name="CreateSupplier.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/DeletePayment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="DeletePayment.php" />
+                        <item name="DeletePayment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/Listable.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="Listable.php" />
+                        <item name="Listable.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/ListBankAccounts.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ListBankAccounts.php" />
+                        <item name="ListBankAccounts.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/ListCategories.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ListCategories.php" />
+                        <item name="ListCategories.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/ListDepartments.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ListDepartments.php" />
+                        <item name="ListDepartments.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/ListDocumentTypes.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ListDocumentTypes.php" />
+                        <item name="ListDocumentTypes.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/ListSuppliersSummary.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ListSuppliersSummary.php" />
+                        <item name="ListSuppliersSummary.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/SyncInstallmentsToOmie.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SyncInstallmentsToOmie.php" />
+                        <item name="SyncInstallmentsToOmie.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Actions/UpsertPayment.php" />
+                          </map>
+                        </attributes>
+                        <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="UpsertPayment.php" />
+                        <item name="UpsertPayment.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/DataObjects" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="DataObjects" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/DataObjects}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Enum" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Enum" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Enum}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Exceptions" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Exceptions" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Exceptions}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Jobs" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Jobs" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Jobs}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Notifications" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Notifications" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Notifications}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Params" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Params" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Params}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Responses" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Responses" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Responses}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Support" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="false" text="Support" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Support}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/Webhooks" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Webhooks" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/Omie/Webhooks}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/OmieAppSelector.php" />
+                        </map>
+                      </attributes>
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieAppSelector.php" />
+                      <item name="OmieAppSelector.php" type="88303cf5:PhpFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/OmieException.php" />
+                        </map>
+                      </attributes>
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieException.php" />
+                      <item name="OmieException.php" type="88303cf5:PhpFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/Omie/OmieService.php" />
+                        </map>
+                      </attributes>
+                      <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="OmieService.php" />
+                      <item name="OmieService.php" type="88303cf5:PhpFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
                         <entry key="filePath" value="$PROJECT_DIR$/app/Services/PetsMothlyCostsReport" />
                       </map>
                     </attributes>
@@ -1064,78 +1109,6 @@
                     </attributes>
                     <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="ProjectExecutionReportService" />
                     <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/app/Services/ProjectExecutionReportService}" type="462c0819:PsiDirectoryNode" />
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/AreaReportData.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="AreaReportData.php" />
-                      <item name="AreaReportData.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/LoadProgressions.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="LoadProgressions.php" />
-                      <item name="LoadProgressions.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/LoadProgressionsProposals.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="LoadProgressionsProposals.php" />
-                      <item name="LoadProgressionsProposals.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/ProgressionsWeeklyRevenue.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProgressionsWeeklyRevenue.php" />
-                      <item name="ProgressionsWeeklyRevenue.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/ReportRow.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ReportRow.php" />
-                      <item name="ReportRow.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/SumWeeks.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="SumWeeks.php" />
-                      <item name="SumWeeks.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/TotalReportData.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TotalReportData.php" />
-                      <item name="TotalReportData.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/Services/ProjectExecutionReportService/WeeksToMontlyAmounts.php" />
-                        </map>
-                      </attributes>
-                      <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="WeeksToMontlyAmounts.php" />
-                      <item name="WeeksToMontlyAmounts.php" type="88303cf5:PhpFileNode" />
-                    </presentation>
                   </presentation>
                   <presentation>
                     <attributes>
@@ -1152,7 +1125,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/app/Services/InternalApiService.php" />
                       </map>
                     </attributes>
-                    <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="InternalApiService.php" />
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="InternalApiService.php" />
                     <item name="InternalApiService.php" type="88303cf5:PhpFileNode" />
                   </presentation>
                 </presentation>
@@ -1210,33 +1183,6 @@
                 </attributes>
                 <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="db-dumps" />
                 <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/db-dumps}" type="462c0819:PsiDirectoryNode" />
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/db-dumps/last-import" />
-                    </map>
-                  </attributes>
-                  <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="last-import" />
-                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/db-dumps/last-import}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/db-dumps/last-import/prodapi_web_v1_20241211-165216.sql" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="prodapi_web_v1_20241211-165216.sql" />
-                    <item name="prodapi_web_v1_20241211-165216.sql" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/db-dumps/last-import/prodapi_web_v1_20241211-165216.sql.gz" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="prodapi_web_v1_20241211-165216.sql.gz" />
-                    <item name="prodapi_web_v1_20241211-165216.sql.gz" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -1300,6 +1246,276 @@
                 </attributes>
                 <data isLeaf="false" text="tests" />
                 <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/Datasets" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Datasets" />
+                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Datasets}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/Feature" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="Feature" />
+                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Actions" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Actions" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Actions}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Console" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Console" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Console}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Http" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Http" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Http}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Integration" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Integration" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Integration}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Jobs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Jobs" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Jobs}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Services" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/CalculateProgressions" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="CalculateProgressions" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/CalculateProgressions}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Omie" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Actions" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="false" text="Actions" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Actions}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Actions/SyncInstallmentsToOmieTest.php" />
+                            </map>
+                          </attributes>
+                          <data isLeaf="true" text="SyncInstallmentsToOmieTest.php" />
+                          <item name="SyncInstallmentsToOmieTest.php" type="88303cf5:PhpFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Actions/UpsertPaymentTest.php" />
+                            </map>
+                          </attributes>
+                          <data isLeaf="true" text="UpsertPaymentTest.php" />
+                          <item name="UpsertPaymentTest.php" type="88303cf5:PhpFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/DataObjects" />
+                          </map>
+                        </attributes>
+                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="DataObjects" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/DataObjects}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Jobs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="false" text="Jobs" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Jobs}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Notifications" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="false" text="Notifications" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Notifications}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Support" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="false" text="Support" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Support}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/Webhooks" />
+                          </map>
+                        </attributes>
+                        <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Webhooks" />
+                        <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/Omie/Webhooks}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/OmieAppSelectorTest.php" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="OmieAppSelectorTest.php" />
+                        <item name="OmieAppSelectorTest.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/Omie/OmieArchTest.php" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="OmieArchTest.php" />
+                        <item name="OmieArchTest.php" type="88303cf5:PhpFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Services/PetsReport" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="PetsReport" />
+                      <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Services/PetsReport}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/Support" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="Support" />
+                    <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Feature/Support}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/ArchTest.php" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="ArchTest.php" />
+                    <item name="ArchTest.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/BasicTest.php" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="BasicTest.php" />
+                    <item name="BasicTest.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/Feature/CompanyModelTest.php" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="CompanyModelTest.php" />
+                    <item name="CompanyModelTest.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/fixtures" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="fixtures" />
+                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/fixtures}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/Traits" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="Traits" />
+                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Traits}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/Unit" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="Unit" />
+                  <item name="dir{file:///home/vitorjustin/sites/neorama-manager-api/tests/Unit}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/Pest.php" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Pest.php" />
+                  <item name="Pest.php" type="88303cf5:PhpFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/TestCase.php" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="TestCase.php" />
+                  <item name="TestCase.php" type="88303cf5:PhpFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -1367,11 +1583,29 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.phpstorm.meta.php" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".phpstorm.meta.php" />
+                <item name=".phpstorm.meta.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/.prettierignore" />
                   </map>
                 </attributes>
                 <data isLeaf="true" text=".prettierignore" />
                 <item name=".prettierignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/_ide_helper.php" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="_ide_helper.php" />
+                <item name="_ide_helper.php" type="88303cf5:PhpFileNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -1527,11 +1761,16 @@
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
-      <element setting="Pest.tests" />
+      <element setting="Pest.UpsertPaymentTest.php::it builds the body correctly" />
+      <element setting="Pest.UpdateControllerTest.php::it updates only required fields" />
+      <element setting="Pest.SyncInstallmentsToOmieTest.php::it builds payments to be sent" />
+      <element setting="Pest.SyncInstallmentsToOmieTest.php" />
       <element setting="Pest.Omie" />
-      <element setting="Pest.PetSynchronizedTest.php::it builds the template" />
-      <element setting="Pest.HandleInstallmentUpdateTest.php::it updates the installment amount and annotate the previous amount" />
-      <element setting="Pest.Main" />
+      <element setting="Pest.OmieAppSelectorTest.php" />
+      <element setting="Pest.OmieAppSelectorTest.php::it defines a specific category_id when the cost center is &quot;adm_xpequipamento&quot;" />
+      <element setting="Pest.OmieAppSelectorTest.php::it defines the correct category_id" />
+      <element setting="Pest.SyncInstallmentsToOmieTest.php::it defines the category when the payment is" />
+      <element setting="Pest.LoadPetProjectCompleteResourceTest.php::it loads complete data" />
     </history>
   </component>
   <component name="ServiceViewManager">
@@ -1586,12 +1825,7 @@
       <TerminalTabState tabName="..a-manager-api" />
       <TerminalTabState tabName="..a-manager-api (2)" />
       <TerminalTabState tabName="..a-manager-api (3)" />
-      <TerminalTabState tabName="..a-manager-api (4)">
-        <shellCommand>
-          <arg value="/bin/zsh" />
-          <arg value="-i" />
-        </shellCommand>
-      </TerminalTabState>
+      <TerminalTabState tabName="..a-manager-api (4)" />
       <TerminalTabState tabName="..a-manager-api (5)">
         <shellCommand>
           <arg value="/bin/zsh" />
@@ -1602,72 +1836,72 @@
     <option name="mySelectedTabIndex" value="4" />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandleInstallmentUpdateTest_php__it_updates_the_installment_amount_and_annotate_the_previous_amount - 2024.12.11 at 08h 41m 19s.xml">
-      <configuration name="HandleInstallmentUpdateTest.php::it updates the installment amount and annotate the previous amount" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpdateControllerTest_php__it_updates_only_required_fields - 2025.01.20 at 19h 10m 03s.xml">
+      <configuration name="UpdateControllerTest.php::it updates only required fields" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="HandleInstallmentUpdateTest_php__it_updates_the_installment_amount_and_annotate_the_previous_amount - 2024.12.11 at 08h 41m 21s.xml">
-      <configuration name="HandleInstallmentUpdateTest.php::it updates the installment amount and annotate the previous amount" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpdateControllerTest_php__it_updates_only_required_fields - 2025.01.20 at 19h 10m 26s.xml">
+      <configuration name="UpdateControllerTest.php::it updates only required fields" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="HandleInstallmentUpdateTest_php__it_updates_the_installment_amount_and_annotate_the_previous_amount - 2024.12.11 at 08h 41m 23s.xml">
-      <configuration name="HandleInstallmentUpdateTest.php::it updates the installment amount and annotate the previous amount" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpdateControllerTest_php__it_updates_only_required_fields - 2025.01.20 at 19h 12m 46s.xml">
+      <configuration name="UpdateControllerTest.php::it updates only required fields" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="HandleInstallmentUpdateTest_php__it_updates_the_installment_amount_and_annotate_the_previous_amount - 2024.12.11 at 08h 41m 53s.xml">
-      <configuration name="HandleInstallmentUpdateTest.php::it updates the installment amount and annotate the previous amount" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 16h 42m 38s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Omie - 2024.12.11 at 09h 32m 35s.xml">
-      <configuration name="Omie" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 16h 43m 14s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Omie - 2024.12.11 at 09h 36m 23s.xml">
-      <configuration name="Omie" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 16h 44m 26s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetSynchronizedTest_php__it_builds_the_template - 2024.12.11 at 09h 34m 24s.xml">
-      <configuration name="PetSynchronizedTest.php::it builds the template" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 16h 45m 48s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetSynchronizedTest_php__it_builds_the_template - 2024.12.11 at 09h 35m 19s.xml">
-      <configuration name="PetSynchronizedTest.php::it builds the template" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 16h 45m 51s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetSynchronizedTest_php__it_builds_the_template - 2024.12.11 at 09h 35m 55s.xml">
-      <configuration name="PetSynchronizedTest.php::it builds the template" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 19h 15m 03s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2024.12.11 at 09h 36m 35s.xml">
-      <configuration name="tests" configurationId="PestRunConfigurationType" />
+    <history-entry file="UpsertPaymentTest_php__it_builds_the_body_correctly - 2025.01.20 at 19h 15m 27s.xml">
+      <configuration name="UpsertPaymentTest.php::it builds the body correctly" configurationId="PestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60078000" />
+    <option name="totallyTimeSpent" value="141681000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Backup and Sync History" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.026137136" />
-      <window_info id="Commit" order="1" weight="0.03689912" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.011840062" />
+      <window_info id="Commit" order="1" visible="true" weight="0.02503882" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.33011365" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.33124286" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3306108" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.113991484" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32990056" />
       <window_info anchor="bottom" id="Services" order="5" weight="0.32990313" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.33011365" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.33011365" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32990056" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.32990056" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.25" />
-      <window_info anchor="right" id="AIAssistant" order="1" weight="0.1662153" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.16634317" />
       <window_info anchor="right" id="Database" order="2" weight="0.1844956" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.33124286" left="0.026137136" right="0.1844956" />
+      <unified_weights bottom="0.32990056" left="0.02503882" right="0.16634317" />
     </layoutV2>
     <recentWindows>
-      <value>Project</value>
-      <value>Terminal</value>
-      <value>Database</value>
       <value>Commit</value>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Find</value>
       <value>AIAssistant</value>
       <value>Debug</value>
-      <value>Find</value>
+      <value>Terminal</value>
+      <value>Database</value>
       <value>Services</value>
       <value>Version Control</value>
-      <value>Run</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
@@ -1687,9 +1921,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="918" y="410" key="#Inspections/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733916298510" />
-    <state x="868" y="379" key="#PHPStan" timestamp="1733829318777">
+    <state x="868" y="379" key="#PHPStan" timestamp="1736454941289">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="868" y="379" key="#PHPStan/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1736454941289" />
     <state x="868" y="379" key="#PHPStan/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733829318777" />
     <state x="880" y="382" width="867" height="651" key="#Run/Debug_Configuration_Templates" timestamp="1733829475694">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -1704,11 +1939,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="903" y="492" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733946767479" />
-    <state x="469" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1734696632026">
-      <screen x="0" y="0" width="1463" height="914" />
+    <state x="1018" y="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1737402248152">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="469" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1463.914@0.0.1024.768" timestamp="1734696632026" />
-    <state x="1018" y="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733945028510" />
+    <state x="1018" y="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737402248152" />
     <state x="419" y="217" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1734694323058">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -1726,29 +1961,29 @@
     </state>
     <state x="408" y="217" width="646" height="458" key="FileChooserDialogImpl/0.0.1463.914@0.0.1024.768" timestamp="1734696791626" />
     <state x="983" y="482" key="FileChooserDialogImpl/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733829306251" />
-    <state width="971" height="415" key="GridCell.Tab.0.bottom" timestamp="1734697916453">
+    <state width="2560" height="427" key="GridCell.Tab.0.bottom" timestamp="1737411327542">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state width="971" height="415" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1024.768" timestamp="1734697916453" />
-    <state width="2560" height="431" key="GridCell.Tab.0.bottom/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733920864783" />
+    <state width="2560" height="427" key="GridCell.Tab.0.bottom/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737411327542" />
     <state width="1384" height="456" key="GridCell.Tab.0.bottom/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733830118217" />
-    <state width="971" height="415" key="GridCell.Tab.0.center" timestamp="1734697916453">
+    <state width="2560" height="427" key="GridCell.Tab.0.center" timestamp="1737411327542">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state width="971" height="415" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1024.768" timestamp="1734697916453" />
-    <state width="2560" height="431" key="GridCell.Tab.0.center/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733920864783" />
+    <state width="2560" height="427" key="GridCell.Tab.0.center/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737411327542" />
     <state width="1384" height="456" key="GridCell.Tab.0.center/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733830118217" />
-    <state width="971" height="415" key="GridCell.Tab.0.left" timestamp="1734697916453">
+    <state width="2560" height="427" key="GridCell.Tab.0.left" timestamp="1737411327542">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state width="971" height="415" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1024.768" timestamp="1734697916453" />
-    <state width="2560" height="431" key="GridCell.Tab.0.left/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733920864783" />
+    <state width="2560" height="427" key="GridCell.Tab.0.left/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737411327542" />
     <state width="1384" height="456" key="GridCell.Tab.0.left/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733830118217" />
-    <state width="971" height="415" key="GridCell.Tab.0.right" timestamp="1734697916453">
+    <state width="2560" height="427" key="GridCell.Tab.0.right" timestamp="1737411327542">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state width="971" height="415" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1024.768" timestamp="1734697916453" />
-    <state width="2560" height="431" key="GridCell.Tab.0.right/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733920864783" />
+    <state width="2560" height="427" key="GridCell.Tab.0.right/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737411327542" />
     <state width="1384" height="456" key="GridCell.Tab.0.right/0.0.2560.1440/0.1440.1463.914@0.0.2560.1440" timestamp="1733830118217" />
     <state width="971" height="415" key="GridCell.Tab.1.bottom" timestamp="1734697916453">
       <screen x="0" y="0" width="1024" height="768" />
@@ -1766,14 +2001,15 @@
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state width="971" height="415" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1024.768" timestamp="1734697916453" />
-    <state x="93" y="106" width="1277" height="680" key="MergeDialog" timestamp="1734093477674">
-      <screen x="0" y="0" width="1024" height="768" />
-    </state>
-    <state x="93" y="106" width="1277" height="680" key="MergeDialog/0.0.1024.768@0.0.1024.768" timestamp="1734093477674" />
-    <state x="1099" y="645" key="NewPhpFileDialog" timestamp="1733837749848">
+    <state x="79" y="94" width="1875" height="978" key="MergeDialog" timestamp="1736428615299">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1099" y="645" key="NewPhpFileDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733837749848" />
+    <state x="93" y="106" width="1277" height="680" key="MergeDialog/0.0.1024.768@0.0.1024.768" timestamp="1734093477674" />
+    <state x="79" y="94" width="1875" height="978" key="MergeDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1736428615298" />
+    <state x="1099" y="645" key="NewPhpFileDialog" timestamp="1737378409771">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1099" y="645" key="NewPhpFileDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737378409771" />
     <state x="1090" y="449" key="RollbackChangesDialog" timestamp="1733839559776">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -1792,19 +2028,19 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="469" y="267" key="com.intellij.database.dataSource.ui.DatabaseTargetChooser.ChooseTargetDialog/0.0.1463.914@0.0.1024.768" timestamp="1734694244701" />
-    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1733859514697">
+    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1736453416211">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733859514697" />
-    <state x="888" y="459" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1733828899905">
+    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1736453416211" />
+    <state x="943" y="525" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1737401385560">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="888" y="459" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733828899905" />
-    <state x="495" y="191" width="651" height="485" key="find.popup" timestamp="1734721076670">
-      <screen x="0" y="0" width="1463" height="914" />
+    <state x="943" y="525" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737401385560" />
+    <state x="506" y="189" width="1550" height="1015" key="find.popup" timestamp="1737413729191">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="495" y="191" width="651" height="485" key="find.popup/0.0.1463.914@0.0.1024.768" timestamp="1734721076670" />
-    <state x="838" y="242" width="886" height="909" key="find.popup/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733944969977" />
+    <state x="506" y="189" width="1550" height="1015" key="find.popup/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737413729191" />
     <state x="880" y="382" key="scopes" timestamp="1733839713156">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -1815,259 +2051,359 @@
     <state x="1010" y="628" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1733839817612" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/PetProject/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/PetPayment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="3864">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/V1/Pet/PetPaymentResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/V1/Pet/IndexResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/V1/Pet/PetPaymentInstallmentResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/V1/Pet/SyncRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5628">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Notifications/InstallmentSynchronized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Pet/SyncController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="210" column="27" lean-forward="true" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Notifications/OmieNotificationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Supplier/UpdateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/SupplierPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Pet/Options/SupplierController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Supplier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8064">
+          <caret line="203" column="5" lean-forward="true" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Webhooks/HandleSupplierUpsert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2226">
+          <caret line="58" column="111" selection-start-line="58" selection-start-column="111" selection-end-line="58" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Equipment/UpdateControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Webhooks/HandleInstallmentPaymentUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Webhook/OmieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Webhooks/HandleWebhook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Traits/SupplierAuthorizationTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/Webhooks/HandleInstallmentPaymentUpdateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#56#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Models/PetTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3822">
+          <caret line="99" column="4" lean-forward="true" selection-start-line="99" selection-start-column="4" selection-end-line="101" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Actions/Pet/LoadPetProjectCompleteResourceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Pet/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/Options/SupplierControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/ProjectExecutionPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/IndexControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/ShowControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/StoreControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Pet/SyncControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/PetFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/PetPaymentFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Pest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="244" column="11" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/OmieArchTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/OmieAppSelectorTest.php" />
+    <entry file="file://$PROJECT_DIR$/app/Enum/PaymentMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Jobs/OmieUpsertPaymentJob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Enum/OmieApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieCreateDepartments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Pet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
+        <state relative-caret-position="11256">
+          <caret line="281" column="20" selection-start-line="281" selection-start-column="20" selection-end-line="281" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/DataObjects/OmieDepartment.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Notifications/PetSynchronized.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/Notifications/PetSynchronizedTest.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/DeletePayment.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/Listable.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/ListBankAccounts.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/ListCategories.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/UpsertPayment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="238" column="13" selection-start-line="238" selection-start-column="13" selection-end-line="238" selection-end-column="13" />
+        <state relative-caret-position="42">
+          <caret line="54" column="62" lean-forward="true" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/Actions/UpsertPaymentTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="798">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <element signature="e#7#51#0#PHP" expanded="true" />
+            <element signature="e#55#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/CreateSupplier.php" />
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/DataObjects/PaymentInstallment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#49#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/Actions/SyncInstallmentsToOmieTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/SyncInstallmentsToOmie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="108" column="60" selection-start-line="108" selection-start-column="60" selection-end-line="108" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers/generic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Supplier/UpdateControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="76" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+          <folding>
+            <element signature="e#7#33#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Services/Omie/OmieAppSelectorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#47#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Omie/OmieAppSelector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#37#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/neorama.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="1092">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/CreateDepartment.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/ListDepartments.php" />
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieList.php" />
-    <entry file="file://$PROJECT_DIR$/app/Importers/Suppliers/ImportSuppliersJob.php">
+    <entry file="file://$PROJECT_DIR$/app/Actions/Supplier/UpdateSupplier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Importers/ImportSuppliers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Importers/ImportPets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieCreateDepartments.php" />
-    <entry file="file://$PROJECT_DIR$/.scripts/import-prod-db.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.php">
-      <provider selected="true" editor-type-id="PhpEvalScratchFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1504" column="20" selection-start-line="1504" selection-start-column="20" selection-end-line="1504" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/OmieAppSelector.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/OmieService.php" />
-    <entry file="file://$PROJECT_DIR$/app/Models/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieSyncInternalSuppliers.php" />
-    <entry file="file://$PROJECT_DIR$/app/Services/Omie/Actions/ListSuppliersSummary.php" />
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Omie/OmieDownloadSuppliers.php" />
-    <entry file="das://43356f1f-08f4-47b4-aec7-128c01506485/schema/neorama.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/43356f1f-08f4-47b4-aec7-128c01506485.SCHEMA:neorama">
-      <provider selected="true" editor-type-id="UmlEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/LoadProgressionsProposals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/TotalIndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers/decimal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="80" column="24" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/ProgressionsWeeklyRevenue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43356f1f-08f4-47b4-aec7-128c01506485/schema/neorama/table/proposals">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state lastOpenedTimestamp="1734697804877" presentationMode="TABLE" projectRestartId="ce39b143-f296-4b73-85e8-425faa098c51" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <sorting>
-            <sort text="" />
-          </sorting>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43356f1f-08f4-47b4-aec7-128c01506485/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" selection-start-column="75" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Actions/ProjectExecution/Reports/TotalReport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/TotalReportData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" column="10" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/SumWeeks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/WeeksToMontlyAmounts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2472">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Actions/ProjectExecution/Reports/CalculateProgressionsProposalField.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/Model/Proposal/ExpertiseTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Proposal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9954">
-          <caret line="249" column="5" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/ProjectExecution/Reports/AreasExportController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13902">
-          <caret line="404" column="61" lean-forward="true" selection-start-line="404" selection-start-column="61" selection-end-line="404" selection-end-column="61" />
-          <folding>
-            <element signature="e#68#148#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Actions/ProjectExecution/Reports/CalculateProgressionsAreaProposalField.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectExecutionReportService/LoadProgressions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4494">
-          <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ProductionStatus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="2478">
+          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
         </state>
       </provider>
     </entry>

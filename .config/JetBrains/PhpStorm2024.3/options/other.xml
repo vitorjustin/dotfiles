@@ -5,6 +5,7 @@
   <component name="AipLicense">
     <option name="licenseId" value="OX2GFYN1YH" />
   </component>
+  <component name="BuiltInServerOptions" builtInServerPort="51887" />
   <component name="FileEditorProviderManager">{}</component>
   <component name="NotRoamableUiSettings">
     <option name="fontFace" value="Inter" />
@@ -16,14 +17,15 @@
   "keyToString": {
     "Grazie.Professional.Advertisement.Invoked": "1",
     "INSPECTION_FILTER_HISTORY": "typo",
-    "InstalledPluginsSearchHistory": "usage\npest",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
-    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "PS-243.22562.74",
+    "InstalledPluginsSearchHistory": "pest\nusage",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "3",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "PS-243.22562.233",
     "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "PS-243.22562.74",
     "LayoutCode.optimizeImports": "false",
     "LayoutCode.rearrangeEntriesPHP": "false",
     "MarketplacePluginsSearchHistory": "pest",
-    "Pest.Splitter.Proportion": "0.2846821",
+    "Pest.Splitter.Proportion": "0.16561656",
+    "PestSupport.hidePassedTests": "false",
     "PluginConfigurable.selectionTab": "1",
     "ProjectStructure.SecondLevelElements": "0.36737588",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
@@ -35,9 +37,10 @@
     "enter_selection_count": "5",
     "evlsprt3.243": "5",
     "experimental.ui.on.first.startup": "true",
-    "experimental.ui.used.version": "243.22562.74",
+    "experimental.ui.used.version": "243.22562.233",
+    "file.gist.reindex.count": "1",
     "fileTypeChangedCounter": "34",
-    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetConsole": "11.0",
     "fontSizeToResetEditor": "14.0",
     "git.stage.action.invoked": "true",
     "got.it.tooltip.Debug Validation": "1",
@@ -48,10 +51,11 @@
     "gotit.previous.run": "PS-243.22562.74",
     "input.method.disabler.muted": "true",
     "last_opened_file_path": "/home/vitorjustin/sites/neorama-manager-api/vendor/bin/phpstan",
+    "llm.installer.activate.toolwindow.delayed": "true",
     "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@client_Dark",
-    "registry.to.advanced.settings.migration.build": "PS-243.22562.74",
+    "registry.to.advanced.settings.migration.build": "PS-243.22562.233",
     "rider.trace.scenarios": "",
     "ts.lib.d.ts.version": "5.4.3"
   },
