@@ -92,6 +92,10 @@ export PATH=$PATH:$HOME/.local/bin
 export _ZO_ECHO='1'
 eval "$(zoxide init zsh)"
 
+# asdf
+export ASDF_DATA_DIR=/home/vitorjustin/.asdf
+export PATH="$ASDF_DATA_DIR/shims:$PATH"
+
 [ -f ~/.aliases.zsh ] && source ~/.aliases.zsh
 
 source ~/.config/fzf.conf
