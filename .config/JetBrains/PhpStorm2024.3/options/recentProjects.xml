@@ -4,22 +4,38 @@
       <map>
         <entry key="$USER_HOME$/sites/neorama-manager-api">
           <value>
-            <RecentProjectMetaInfo frameTitle="neorama-manager-api" opened="true" projectWorkspaceId="2pz1lK1R4GHIlpkn7QyD9IR32SA">
-              <option name="activationTimestamp" value="1734735612340" />
+            <RecentProjectMetaInfo frameTitle="neorama-manager-api" projectWorkspaceId="2pz1lK1R4GHIlpkn7QyD9IR32SA">
+              <option name="activationTimestamp" value="1737413753821" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-243.22562.74" />
-              <option name="buildTimestamp" value="1732778580000" />
+              <option name="build" value="PS-243.22562.233" />
+              <option name="buildTimestamp" value="1734603240000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="2" />
               </option>
-              <frame x="-7" y="-7" width="1473" height="877" />
+              <frame x="-8" y="-8" width="2576" height="1408" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1734730763246" />
+              <option name="projectOpenTimestamp" value="1737410971479" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sites/miagui-manager-api">
+          <value>
+            <RecentProjectMetaInfo frameTitle="miagui-manager-api" opened="true" projectWorkspaceId="2rIi1RmGAKZYF8qvkBFj9YxLwul">
+              <option name="activationTimestamp" value="1737487686076" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-243.22562.233" />
+              <option name="buildTimestamp" value="1734603240000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="580" y="196" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1737487662673" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/sites/neorama-manager-api" />
+    <option name="lastOpenedProject" value="$USER_HOME$/sites/miagui-manager-api" />
   </component>
 </application>

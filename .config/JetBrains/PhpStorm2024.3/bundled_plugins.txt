@@ -1,5 +1,3 @@
-AngularJS|JavaScript Frameworks and Tools
-
 Docker|Deployment
 
 Git4Idea|Version Controls
@@ -16,17 +14,7 @@ Karma|JavaScript Frameworks and Tools
 
 NodeJS|JavaScript Frameworks and Tools
 
-PerforceDirectPlugin|Version Controls
-
-Refactor-X|HTML and XML
-
 Remote Development Server|null
-
-Subversion|Version Controls
-
-XPathView|HTML and XML
-
-com.deadlock.scsyntax|JavaScript Frameworks and Tools
 
 com.intellij.apacheConfig|Languages
 
@@ -65,8 +53,6 @@ com.intellij.phing|Build Tools
 com.intellij.php.grazie|null
 
 com.intellij.php.markdown|null
-
-com.intellij.php.phpt|Languages
 
 com.intellij.php.psalm|Other Tools
 
@@ -140,21 +126,13 @@ com.jetbrains.performancePlugin|Other Tools
 
 com.jetbrains.php.architecture|Languages
 
-com.jetbrains.php.behat|Test Tools
-
 com.jetbrains.php.blade|Template Languages
 
-com.jetbrains.php.codeception|Test Tools
-
 com.jetbrains.php.dql|Languages
-
-com.jetbrains.php.drupal|PHP Frameworks
 
 com.jetbrains.php.eval|Other Tools
 
 com.jetbrains.php.framework|Other Tools
-
-com.jetbrains.php.joomla|PHP Frameworks
 
 com.jetbrains.php.phpspec|Test Tools
 
@@ -185,8 +163,6 @@ com.pestphp.pest-intellij|Test Tools
 cucumber-javascript|JavaScript Frameworks and Tools
 
 gherkin|Languages
-
-hg4idea|Version Controls
 
 hunspell|Spellchecker
 
@@ -234,8 +210,6 @@ org.jetbrains.plugins.github|Version Controls
 
 org.jetbrains.plugins.gitlab|Version Controls
 
-org.jetbrains.plugins.less|Style Sheets
-
 org.jetbrains.plugins.node-remote-interpreter|JavaScript Frameworks and Tools
 
 org.jetbrains.plugins.phpstorm-docker|PHP Tools
@@ -251,8 +225,6 @@ org.jetbrains.plugins.terminal|Other Tools
 org.jetbrains.plugins.textmate|Other Tools
 
 org.jetbrains.plugins.vagrant|Deployment
-
-org.jetbrains.plugins.vue|JavaScript Frameworks and Tools
 
 org.jetbrains.plugins.yaml|Languages
 

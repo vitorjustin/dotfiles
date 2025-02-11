@@ -1,0 +1,1600 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="miagui-manager-api" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="LOCAL" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="LOCAL" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="GROUP:feat" type="80986c07:BranchNodeDescriptor$Group" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="REMOTE:origin" type="9a375a70:BranchNodeDescriptor$RemoteGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="REMOTE:origin" type="9a375a70:BranchNodeDescriptor$RemoteGroup" />
+        <item name="GROUP:feat" type="80986c07:BranchNodeDescriptor$Group" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Shell Script": {
+      "usageCount": 2,
+      "lastUsed": 1736279490574
+    },
+    "Dockerfile": {
+      "usageCount": 2,
+      "lastUsed": 1736254041967
+    },
+    ".env file": {
+      "usageCount": 4,
+      "lastUsed": 1736260785085
+    },
+    "DIFF": {
+      "usageCount": 2,
+      "lastUsed": 1736281422066
+    },
+    "PHP": {
+      "usageCount": 126,
+      "lastUsed": 1737487671097
+    },
+    "Markdown": {
+      "usageCount": 3,
+      "lastUsed": 1736253929768
+    },
+    "YAML": {
+      "usageCount": 2,
+      "lastUsed": 1736254350929
+    }
+  }
+}]]></component>
+  <component name="FilesOpenedOnControllerState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="3778" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/tests/Feature/Console/Commands/UpdateActiveMemberOfProjectTest.php" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="2374" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/database/factories/ProjectFactory.php" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="6188" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/tests/Feature/Actions/Project/Team/SyncTeamMembersTest.php" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/database/factories/ProjectTeamMemberFactory.php" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DB_ROOT_USERNAME</find>
+      <find>mysql_root</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/app/Http/Controllers/V1/Project/Timeline</dir>
+      <dir>$PROJECT_DIR$/.scripts</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/vitorjustin/sites/miagui-manager-api/.env.example&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/config/database.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/.env&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/docker/8.1/Dockerfile&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/README.md&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/docker-compose.yml&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/.scripts/deploy-to-homolog.sh&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/.scripts/deploy-to-prod.sh&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Enum/UserRole.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Http/Controllers/V1/Project/Timeline/UpdateTitleControllerTest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Http/Controllers/V1/Project/Timeline/UpdateTitleController.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Policies/TimelinePolicy.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Http/Controllers/V1/Project/Timeline/UpsertVersionControllerTest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Http/Controllers/V1/Project/Timeline/DeleteController.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Http/Controllers/V1/Project/Timeline/UpsertVersionController.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Http/Controllers/V1/Project/Timeline/DeleteControllerTest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/database/migrations/2025_01_20_211721_add_id_for_primary_key_to_project_team_members.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/database/migrations/2025_01_20_211720_add_id_for_primary_key_to_project_team_members.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/database/migrations/2025_01_20_211720_change_primary_key_to_a_id_column_to_project_team_members.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/DataObjects/TemporaryMemberData.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Http/Controllers/V1/Project/Member/UpdateMembersOfRoleControllerTest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Http/Requests/V1/Project/Member/UpdateMembersOfRoleRequest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Http/Controllers/V1/Project/Member/UpdateMembersOfRoleController.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Models/ProjectTeamMember.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Models/Project.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/app/Console/Commands/UpdateActiveMemberOfProject.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Actions/Project/Team/SyncTeamMembersTest.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/database/factories/ProjectFactory.php&quot;,
+    &quot;/home/vitorjustin/sites/miagui-manager-api/tests/Feature/Console/Commands/UpdateActiveMemberOfProjectTest.php&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Dockerfile">
+      <summary usageCount="2" lastUsage="1736254041967" />
+    </language>
+    <language id="DotEnv">
+      <summary usageCount="4" lastUsage="1736260785085" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="3" lastUsage="1736253929768" />
+    </language>
+    <language id="PHP">
+      <summary usageCount="126" lastUsage="1737487671097" />
+    </language>
+    <language id="Shell Script">
+      <summary usageCount="2" lastUsage="1736279490574" />
+    </language>
+    <language id="yaml">
+      <summary usageCount="2" lastUsage="1736254350929" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="miagui-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miagui-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miagui-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database/factories}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miagui-manager-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database/migrations}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="icons/toolwindows/toolWindowProject.svg" iconPlugin="com.mallowigi" isLeaf="false" text="miagui-manager-api" />
+            <item name="miagui-manager-api" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="icons/mt/modules/ModuleOpen.svg" iconPlugin="com.mallowigi" isLeaf="false" text="miagui-manager-api" />
+              <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text=".github" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.scripts" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text=".scripts" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/.scripts}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/app" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="app" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/app}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/bootstrap" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="bootstrap" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/bootstrap}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/config" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="config" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/config}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/database" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="database" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/database/factories" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="factories" />
+                  <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database/factories}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/BusinessNumberFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="BusinessNumberFactory.php" />
+                    <item name="BusinessNumberFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/CompanyFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="CompanyFactory.php" />
+                    <item name="CompanyFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/EmployeeFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="EmployeeFactory.php" />
+                    <item name="EmployeeFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ExpertiseCostFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ExpertiseCostFactory.php" />
+                    <item name="ExpertiseCostFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProductionStatusFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProductionStatusFactory.php" />
+                    <item name="ProductionStatusFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectExecutionFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectExecutionFactory.php" />
+                    <item name="ProjectExecutionFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectExecutionProgressFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectExecutionProgressFactory.php" />
+                    <item name="ProjectExecutionProgressFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectFactory.php" />
+                    <item name="ProjectFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectGroupFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectGroupFactory.php" />
+                    <item name="ProjectGroupFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectTeamMemberFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectTeamMemberFactory.php" />
+                    <item name="ProjectTeamMemberFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProjectWeeklyProgressionFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProjectWeeklyProgressionFactory.php" />
+                    <item name="ProjectWeeklyProgressionFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ProposalFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ProposalFactory.php" />
+                    <item name="ProposalFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ReportHistoryFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ReportHistoryFactory.php" />
+                    <item name="ReportHistoryFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/ServiceFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="ServiceFactory.php" />
+                    <item name="ServiceFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/StockStatusFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="StockStatusFactory.php" />
+                    <item name="StockStatusFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TeamFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TeamFactory.php" />
+                    <item name="TeamFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TimelineFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TimelineFactory.php" />
+                    <item name="TimelineFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TimelineVersionDeliverableFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TimelineVersionDeliverableFactory.php" />
+                    <item name="TimelineVersionDeliverableFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TimelineVersionDeliverableTaskActivityFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TimelineVersionDeliverableTaskActivityFactory.php" />
+                    <item name="TimelineVersionDeliverableTaskActivityFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TimelineVersionDeliverableTaskFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TimelineVersionDeliverableTaskFactory.php" />
+                    <item name="TimelineVersionDeliverableTaskFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/TimelineVersionFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="TimelineVersionFactory.php" />
+                    <item name="TimelineVersionFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="UserFactory.php" />
+                    <item name="UserFactory.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/database/migrations" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="migrations" />
+                  <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database/migrations}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2014_10_12_000000_create_users_table.php" />
+                    <item name="2014_10_12_000000_create_users_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2014_10_12_000002_create_failed_jobs_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2014_10_12_000002_create_failed_jobs_table.php" />
+                    <item name="2014_10_12_000002_create_failed_jobs_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2014_10_12_000003_create_jobs_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2014_10_12_000003_create_jobs_table.php" />
+                    <item name="2014_10_12_000003_create_jobs_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_09_182313_create_companies_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_09_182313_create_companies_table.php" />
+                    <item name="2020_11_09_182313_create_companies_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_09_182328_create_services_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_09_182328_create_services_table.php" />
+                    <item name="2020_11_09_182328_create_services_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_13_164539_create_production_statuses_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_13_164539_create_production_statuses_table.php" />
+                    <item name="2020_11_13_164539_create_production_statuses_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_13_195043_create_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_13_195043_create_projects_table.php" />
+                    <item name="2020_11_13_195043_create_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_13_195657_create_expertise_costs_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_13_195657_create_expertise_costs_table.php" />
+                    <item name="2020_11_13_195657_create_expertise_costs_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2020_11_13_195658_create_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2020_11_13_195658_create_proposals_table.php" />
+                    <item name="2020_11_13_195658_create_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_03_05_101510_create_business_numbers_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_03_05_101510_create_business_numbers_table.php" />
+                    <item name="2021_03_05_101510_create_business_numbers_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_05_17_145229_create_teams_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_05_17_145229_create_teams_table.php" />
+                    <item name="2021_05_17_145229_create_teams_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_05_17_145253_create_employees_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_05_17_145253_create_employees_table.php" />
+                    <item name="2021_05_17_145253_create_employees_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_05_17_145354_create_project_executions_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_05_17_145354_create_project_executions_table.php" />
+                    <item name="2021_05_17_145354_create_project_executions_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_05_17_145403_create_project_execution_progressions_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_05_17_145403_create_project_execution_progressions_table.php" />
+                    <item name="2021_05_17_145403_create_project_execution_progressions_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2021_10_05_185212_create_project_weekly_progressions_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2021_10_05_185212_create_project_weekly_progressions_table.php" />
+                    <item name="2021_10_05_185212_create_project_weekly_progressions_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2022_05_04_113620_create_reports_history_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2022_05_04_113620_create_reports_history_table.php" />
+                    <item name="2022_05_04_113620_create_reports_history_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_02_15_170029_create_project_team_member_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_02_15_170029_create_project_team_member_table.php" />
+                    <item name="2023_02_15_170029_create_project_team_member_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_03_21_172800_create_stock_statuses_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_03_21_172800_create_stock_statuses_table.php" />
+                    <item name="2023_03_21_172800_create_stock_statuses_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_03_21_173422_add_stock_status_id_column_to_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_03_21_173422_add_stock_status_id_column_to_projects_table.php" />
+                    <item name="2023_03_21_173422_add_stock_status_id_column_to_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_03_22_183638_remove_acronym_field_from_companies_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_03_22_183638_remove_acronym_field_from_companies_table.php" />
+                    <item name="2023_03_22_183638_remove_acronym_field_from_companies_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_03_22_185154_add_product_field_to_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_03_22_185154_add_product_field_to_projects_table.php" />
+                    <item name="2023_03_22_185154_add_product_field_to_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_03_31_152333_add_scope_field_to_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_03_31_152333_add_scope_field_to_proposals_table.php" />
+                    <item name="2023_03_31_152333_add_scope_field_to_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_04_11_185705_add_fields_to_companies_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_04_11_185705_add_fields_to_companies_table.php" />
+                    <item name="2023_04_11_185705_add_fields_to_companies_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_04_25_111350_add_origin_field_to_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_04_25_111350_add_origin_field_to_projects_table.php" />
+                    <item name="2023_04_25_111350_add_origin_field_to_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_04_26_184319_add_google_sheet_id_field_to_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_04_26_184319_add_google_sheet_id_field_to_projects_table.php" />
+                    <item name="2023_04_26_184319_add_google_sheet_id_field_to_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_05_17_113852_add_has_legacy_data_to_executions_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_05_17_113852_add_has_legacy_data_to_executions_table.php" />
+                    <item name="2023_05_17_113852_add_has_legacy_data_to_executions_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_08_04_200304_add_proposal_approved_at_date_to_projects_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_08_04_200304_add_proposal_approved_at_date_to_projects_table.php" />
+                    <item name="2023_08_04_200304_add_proposal_approved_at_date_to_projects_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_10_03_173349_add_expertises_costs_and_prices_fields_to_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_10_03_173349_add_expertises_costs_and_prices_fields_to_proposals_table.php" />
+                    <item name="2023_10_03_173349_add_expertises_costs_and_prices_fields_to_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_10_26_080933_add_render_fields_to_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_10_26_080933_add_render_fields_to_proposals_table.php" />
+                    <item name="2023_10_26_080933_add_render_fields_to_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_10_26_173840_add_has_costs_attribute_to_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_10_26_173840_add_has_costs_attribute_to_proposals_table.php" />
+                    <item name="2023_10_26_173840_add_has_costs_attribute_to_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_12_13_180310_update_days_columns_in_proposals_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_12_13_180310_update_days_columns_in_proposals_table.php" />
+                    <item name="2023_12_13_180310_update_days_columns_in_proposals_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2023_12_18_195052_add_extra_fields_to_project_team_members_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2023_12_18_195052_add_extra_fields_to_project_team_members_table.php" />
+                    <item name="2023_12_18_195052_add_extra_fields_to_project_team_members_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_02_14_102442_add_is_fully_allocated_column_to_project_executions_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_02_14_102442_add_is_fully_allocated_column_to_project_executions_table.php" />
+                    <item name="2024_02_14_102442_add_is_fully_allocated_column_to_project_executions_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_06_25_105236_add_mocap_columns.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_06_25_105236_add_mocap_columns.php" />
+                    <item name="2024_06_25_105236_add_mocap_columns.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_07_05_092443_creates_projects_timelines_tables.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_07_05_092443_creates_projects_timelines_tables.php" />
+                    <item name="2024_07_05_092443_creates_projects_timelines_tables.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_07_08_092758_update_employee_attributes.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_07_08_092758_update_employee_attributes.php" />
+                    <item name="2024_07_08_092758_update_employee_attributes.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_08_06_103457_adds_column_groups_work_days.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_08_06_103457_adds_column_groups_work_days.php" />
+                    <item name="2024_08_06_103457_adds_column_groups_work_days.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_08_06_193411_add_cost_center_group_column_to_teams_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_08_06_193411_add_cost_center_group_column_to_teams_table.php" />
+                    <item name="2024_08_06_193411_add_cost_center_group_column_to_teams_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_08_08_203736_adds_foreign_keys_for_timeline_tables.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_08_08_203736_adds_foreign_keys_for_timeline_tables.php" />
+                    <item name="2024_08_08_203736_adds_foreign_keys_for_timeline_tables.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_08_18_083555_create_projects_group_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_08_18_083555_create_projects_group_table.php" />
+                    <item name="2024_08_18_083555_create_projects_group_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_08_20_150859_add_total_price_to_project_group_table.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_08_20_150859_add_total_price_to_project_group_table.php" />
+                    <item name="2024_08_20_150859_add_total_price_to_project_group_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2024_10_16_100351_increase_work_days_decimal_length_to_timeline_tables.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2024_10_16_100351_increase_work_days_decimal_length_to_timeline_tables.php" />
+                    <item name="2024_10_16_100351_increase_work_days_decimal_length_to_timeline_tables.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2025_01_20_211720_change_primary_key_to_a_id_column_to_project_team_members.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2025_01_20_211720_change_primary_key_to_a_id_column_to_project_team_members.php" />
+                    <item name="2025_01_20_211720_change_primary_key_to_a_id_column_to_project_team_members.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/database/seeders" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="seeders" />
+                  <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/database/seeders}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/database/.gitignore" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text=".gitignore" />
+                  <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/docker" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="docker" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/docker}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/lang" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="lang" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/lang}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/public" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="public" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/public}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/resources" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="resources" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/resources}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/routes" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="routes" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/routes}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/storage" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="storage" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/storage}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/temp" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="temp" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/temp}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tests" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="tests" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/tests}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/vendor" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="vendor" />
+                <item name="dir{file:///home/vitorjustin/sites/miagui-manager-api/vendor}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.editorconfig" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".editorconfig" />
+                <item name=".editorconfig" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.env" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".env" />
+                <item name=".env" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.env.example" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".env.example" />
+                <item name=".env.example" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitattributes" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".gitattributes" />
+                <item name=".gitattributes" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.htaccess" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".htaccess" />
+                <item name=".htaccess" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.phpstorm.meta.php" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".phpstorm.meta.php" />
+                <item name=".phpstorm.meta.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.phpunit.result.cache" />
+                  </map>
+                </attributes>
+                <data iconPath="files/fileTypes/unknown.svg" iconPlugin="com.mallowigi" isLeaf="true" text=".phpunit.result.cache" />
+                <item name=".phpunit.result.cache" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.prettierignore" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".prettierignore" />
+                <item name=".prettierignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/_ide_helper.php" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="_ide_helper.php" />
+                <item name="_ide_helper.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/_ide_helper_models.php" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="_ide_helper_models.php" />
+                <item name="_ide_helper_models.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/artisan" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="artisan" />
+                <item name="artisan" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/composer.json" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="composer.json" />
+                <item name="composer.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/composer.lock" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="composer.lock" />
+                <item name="composer.lock" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/docker-compose.yml" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="docker-compose.yml" />
+                <item name="docker-compose.yml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/favicon.ico" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="favicon.ico" />
+                <item name="favicon.ico" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/GENERIC.md" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="GENERIC.md" />
+                <item name="GENERIC.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/LICENSE" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="LICENSE" />
+                <item name="LICENSE" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/phpstan.neon" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="phpstan.neon" />
+                <item name="phpstan.neon" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/phpstan-baseline.neon" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="phpstan-baseline.neon" />
+                <item name="phpstan-baseline.neon" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/phpunit.xml" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="phpunit.xml" />
+                <item name="phpunit.xml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/robots.txt" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="robots.txt" />
+                <item name="robots.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="icons/nodes/ppLib.svg" iconPlugin="com.mallowigi" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="icons/scope/scratches.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Pest.UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" />
+      <element setting="Pest.SyncTeamMembersTest.php::it only updates the principal team member of a role" />
+      <element setting="Pest.UpdateActiveMemberOfProjectTest.php" />
+      <element setting="Pest.UpdateActiveMemberOfProjectTest.php::it updates the active member of a project for multiple roless" />
+      <element setting="Pest.UpdateActiveMemberOfProjectTest.php::it updates the active member of a project for multiple roles" />
+      <element setting="Pest.UpdateMembersOfRoleControllerTest.php" />
+      <element setting="Pest.UpdateMembersOfRoleControllerTest.php::it updates team members" />
+      <element setting="Pest.UpdateMembersOfRoleControllerTest.php::it assigns the same employee in two different dates for temporary members" />
+      <element setting="Pest.UpdateMembersOfRoleControllerTest.php::it creates members with assign dates and is_temporary attribute" />
+      <element setting="Pest.UpdateTitleControllerTest.php::it denies if user role is atendimento" />
+    </history>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.docker.runtimes.DockerServerRuntime@e4f1a3f4" type="f13cf2da:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="..i-manager-api">
+        <shellCommand>
+          <arg value="/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SyncTeamMembersTest_php__it_only_updates_the_principal_team_member_of_a_role - 2025.01.21 at 16h 14m 44s.xml">
+      <configuration name="SyncTeamMembersTest.php::it only updates the principal team member of a role" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SyncTeamMembersTest_php__it_only_updates_the_principal_team_member_of_a_role - 2025.01.21 at 16h 17m 14s.xml">
+      <configuration name="SyncTeamMembersTest.php::it only updates the principal team member of a role" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SyncTeamMembersTest_php__it_only_updates_the_principal_team_member_of_a_role - 2025.01.21 at 16h 17m 36s.xml">
+      <configuration name="SyncTeamMembersTest.php::it only updates the principal team member of a role" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php - 2025.01.21 at 16h 12m 05s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_for_multiple_projects_with_multiple_roles - 2025.01.21 at 16h 10m 08s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_for_multiple_projects_with_multiple_roles - 2025.01.21 at 16h 11m 41s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_for_multiple_projects_with_multiple_roles - 2025.01.21 at 16h 11m 56s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_for_multiple_projects_with_multiple_roles - 2025.01.21 at 16h 20m 01s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_for_multiple_projects_with_multiple_roles - 2025.01.21 at 16h 21m 11s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member for multiple projects with multiple roles" configurationId="PestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UpdateActiveMemberOfProjectTest_php__it_updates_the_active_member_of_a_project_for_multiple_roless - 2025.01.21 at 16h 02m 39s.xml">
+      <configuration name="UpdateActiveMemberOfProjectTest.php::it updates the active member of a project for multiple roless" configurationId="PestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25335000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.021785714" />
+      <window_info id="Commit" order="1" weight="0.09763199" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32990056" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32990056" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32990056" />
+      <window_info anchor="bottom" id="Services" order="5" weight="0.32990056" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32990056" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.32990056" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.2501941" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32990056" left="0.021785714" right="0.2501941" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Find</value>
+      <value>Terminal</value>
+      <value>Commit</value>
+      <value>Version Control</value>
+      <value>Services</value>
+      <value>Debug</value>
+      <value>AIAssistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="868" y="379" key="#CLI_Interpreters" timestamp="1737461098478">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="868" y="379" key="#CLI_Interpreters/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737461098478" />
+    <state x="880" y="382" width="858" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1737461020833">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="382" width="858" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737461020833" />
+    <state x="1018" y="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1736280470093">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1736280470093" />
+    <state width="454" height="1328" key="GridCell.Tab.0.bottom" timestamp="1737487313757">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="454" height="1328" key="GridCell.Tab.0.bottom/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737487313757" />
+    <state width="454" height="1328" key="GridCell.Tab.0.center" timestamp="1737487313757">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="454" height="1328" key="GridCell.Tab.0.center/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737487313757" />
+    <state width="454" height="1328" key="GridCell.Tab.0.left" timestamp="1737487313757">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="454" height="1328" key="GridCell.Tab.0.left/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737487313757" />
+    <state width="454" height="1328" key="GridCell.Tab.0.right" timestamp="1737487313757">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="454" height="1328" key="GridCell.Tab.0.right/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737487313757" />
+    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1737466428200">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="429" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1737466428200" />
+    <state x="956" y="454" width="649" height="486" key="find.popup" timestamp="1736279490557">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="956" y="454" width="649" height="486" key="find.popup/0.0.2560.1440/0.1440.1463.914@0.0.1024.768" timestamp="1736279490557" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Project/Timeline/UpsertVersionControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="708" selection-start-line="708" selection-end-line="712" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Project/Timeline/UpsertVersionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/TimelinePolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Project/Timeline/UpdateTitleControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#70#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Project/Timeline/UpdateTitleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/ColumnDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/ForeignKeyDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1636" lean-forward="true" selection-start-line="1636" selection-end-line="1636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2025_01_20_211721_add_id_for_primary_key_to_project_team_members.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_03_21_172800_create_stock_statuses_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_03_21_173422_add_stock_status_id_column_to_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_03_22_183638_remove_acronym_field_from_companies_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_03_22_185154_add_product_field_to_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_03_31_152333_add_scope_field_to_proposals_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_04_11_185705_add_fields_to_companies_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_04_25_111350_add_origin_field_to_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_04_26_184319_add_google_sheet_id_field_to_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_05_17_113852_add_has_legacy_data_to_executions_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_08_04_200304_add_proposal_approved_at_date_to_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_10_03_173349_add_expertises_costs_and_prices_fields_to_proposals_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_10_26_080933_add_render_fields_to_proposals_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_10_26_173840_add_has_costs_attribute_to_proposals_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_12_13_180310_update_days_columns_in_proposals_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_02_14_102442_add_is_fully_allocated_column_to_project_executions_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_06_25_105236_add_mocap_columns.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_07_05_092443_creates_projects_timelines_tables.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_07_08_092758_update_employee_attributes.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_08_06_103457_adds_column_groups_work_days.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_08_06_193411_add_cost_center_group_column_to_teams_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_08_08_203736_adds_foreign_keys_for_timeline_tables.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_08_18_083555_create_projects_group_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_08_20_150859_add_total_price_to_project_group_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2024_10_16_100351_increase_work_days_decimal_length_to_timeline_tables.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_12_18_195052_add_extra_fields_to_project_team_members_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2023_02_15_170029_create_project_team_member_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2025_01_20_211720_change_primary_key_to_a_id_column_to_project_team_members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/V1/Project/Member/UpdateMembersOfRoleRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Factories/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="599" column="23" lean-forward="true" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Http/Controllers/V1/Project/Member/UpdateMembersOfRoleControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DataObjects/TemporaryMemberData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Employee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1974">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Project/Member/UpdateMembersOfRoleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/UpdateActiveMemberOfProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ProjectTeamMember.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1974">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
+          <caret line="194" column="51" selection-start-line="194" selection-start-column="51" selection-end-line="194" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Console/Commands/UpdateActiveMemberOfProjectTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ProjectFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="86" column="41" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Actions/Project/Team/SyncTeamMembersTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ProjectTeamMemberFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
