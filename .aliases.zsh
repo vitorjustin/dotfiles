@@ -1,3 +1,5 @@
+alias dotfiles="cd ~/dotfiles"
+
 alias cls="clear"
 alias c='clear'
 alias cls='clear'
@@ -22,6 +24,7 @@ gitdiff() {
 battail() {
   tail -f "$1" | bat --paging=never -l log
 }
+alias batlog="bat -l log"
 
 alias fiff="fancy-diff"
 
