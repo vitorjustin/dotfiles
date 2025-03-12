@@ -104,3 +104,5 @@ source ~/.config/ssh.conf
 
 # compress images
 alias png="oxipng -s --alpha --dir="compressed" *.png"
+export PATH="/home/vitorjustin/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/vitorjustin/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
