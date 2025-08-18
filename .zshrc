@@ -111,3 +111,6 @@ export PHP_INI_SCAN_DIR="/home/vitorjustin/.config/herd-lite/bin:$PHP_INI_SCAN_D
 alias tm='task-master'
 alias taskmaster='task-master'
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# VS Code alias - override Cursor editor
+alias code="/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
