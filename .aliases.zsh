@@ -8,6 +8,8 @@ alias grep="grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}"
 alias clip="xclip -sel clip"
 alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
+alias pstorm="/mnt/c/Program\ Files\ \(x86\)/JetBrains/PhpStorm\ 2024.3/bin/phpstorm64.exe $(wslpath -w .)"
+alias phpstorm="pstorm"
 
 # bat
 # https://github.com/sharkdp/bat/issues/954#issuecomment-1293173319
