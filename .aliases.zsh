@@ -48,6 +48,7 @@ fi
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias aliases="vim ~/dotfiles/.aliases.zsh"
+alias sourcezsh="source ~/.zshrc"
 
 # directories
 alias sites="cd /home/vitorjustin/sites"
