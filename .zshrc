@@ -106,3 +106,8 @@ source ~/.config/ssh.conf
 alias png="oxipng -s --alpha --dir="compressed" *.png"
 export PATH="/home/vitorjustin/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/vitorjustin/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+# Task Master aliases added on 4/25/2025
+alias tm='task-master'
+alias taskmaster='task-master'
+export PATH="$HOME/.cargo/bin:$PATH"
