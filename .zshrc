@@ -1,9 +1,15 @@
+#if [[ $TERM_PROGRAM == "WarpTerminal" ]]; then
+#  return
+#fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+[[ -t 0 ]] && export GPG_TTY=$(tty)
 
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -47,6 +53,8 @@ zinit cdreplay -q
 # nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export EDITOR='nvim'
+export GPG_TTY=$(tty)
+export PINENTRY_USER_DATA=USE_CURSES=1
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -104,13 +112,21 @@ source ~/.config/ssh.conf
 
 # compress images
 alias png="oxipng -s --alpha --dir="compressed" *.png"
+
 export PATH="/home/vitorjustin/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/vitorjustin/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-# Task Master aliases added on 4/25/2025
-alias tm='task-master'
-alias taskmaster='task-master'
-export PATH="$HOME/.cargo/bin:$PATH"
 
 # VS Code alias - override Cursor editor
-alias code="/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
+# Using custom wrapper script to handle WSL integration properly
+alias code="$HOME/.local/bin/code"
+
+# bun completions
+[ -s "/home/vitorjustin/.bun/_bun" ] && source "/home/vitorjustin/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# opencode
+export PATH=/home/vitorjustin/.opencode/bin:$PATH
