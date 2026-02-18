@@ -1,5 +1,3 @@
-alias dotfiles="cd ~/dotfiles"
-
 alias cls="clear"
 alias c='clear'
 alias cls='clear'
@@ -8,17 +6,11 @@ alias grep="grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}"
 alias clip="xclip -sel clip"
 alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
-alias pstorm="/mnt/c/Program\ Files\ \(x86\)/JetBrains/PhpStorm\ 2024.3/bin/phpstorm64.exe $(wslpath -w .)"
-alias phpstorm="pstorm"
+alias gdm="git diff --name-only main...HEAD"
 
 # bat
-# https://github.com/sharkdp/bat/issues/954#issuecomment-1293173319
-biff () {
-  diff $@|bat -l diff
-}
-
 # https://github.com/sharkdp/bat?tab=readme-ov-file#git-diff
-gitdiff() {
+batdiff() {
   git diff --name-only --relative --diff-filter=d | xargs bat --diff
 }
 
@@ -26,9 +18,6 @@ gitdiff() {
 battail() {
   tail -f "$1" | bat --paging=never -l log
 }
-alias batlog="bat -l log"
-
-alias fiff="fancy-diff"
 
 ## EZA (better ls) or custom ls aliases
 if type eza >/dev/null 2>&1; then
@@ -48,7 +37,7 @@ fi
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias aliases="vim ~/dotfiles/.aliases.zsh"
-alias sourcezsh="source ~/.zshrc"
+alias weztermconfig="vim /mnt/c/Users/vitor/.wezterm.lua"
 
 # directories
 alias sites="cd /home/vitorjustin/sites"
