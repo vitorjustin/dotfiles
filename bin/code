@@ -1,28 +1,5 @@
 #!/bin/bash
 
-# VS Code wrapper for WSL
-# This script properly launches VS Code from WSL by using PowerShell to execute the Windows binary
+VSCODE_PATH='/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft VS Code/Code.exe'
 
-# Convert WSL path to Windows path if needed
-if [[ $1 == "." ]]; then
-    # Current directory - convert to Windows path
-    WIN_PATH=$(wslpath -w "$(pwd)")
-    powershell.exe -NoProfile -Command "& 'C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\Code.exe' '$WIN_PATH'"
-elif [[ $1 == /* ]] || [[ $1 == ~* ]]; then
-    # Absolute path or home path - convert to Windows path
-    WIN_PATH=$(wslpath -w "$1")
-    powershell.exe -NoProfile -Command "& 'C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\Code.exe' '$WIN_PATH'"
-elif [[ -n $1 ]]; then
-    # Relative path or filename
-    if [[ -e $1 ]]; then
-        # Path exists - convert to Windows path
-        WIN_PATH=$(wslpath -w "$(realpath "$1")")
-        powershell.exe -NoProfile -Command "& 'C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\Code.exe' '$WIN_PATH'"
-    else
-        # Pass as-is (might be a flag like --help)
-        powershell.exe -NoProfile -Command "& 'C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\Code.exe' '$1'"
-    fi
-else
-    # No arguments - just launch VS Code
-    powershell.exe -NoProfile -Command "& 'C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\Code.exe'"
-fi
+"$VSCODE_PATH" "$1" &
