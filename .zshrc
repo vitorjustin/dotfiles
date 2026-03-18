@@ -53,8 +53,13 @@ zinit cdreplay -q
 # nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export EDITOR='nvim'
-export GPG_TTY=$(tty)
-export PINENTRY_USER_DATA=USE_CURSES=1
+#export GPG_TTY=$(tty)
+#export PINENTRY_USER_DATA=USE_CURSES=1
+
+if [ -t 0 ]; then
+  export GPG_TTY=$(tty)
+fi
+gpg-connect-agent updatestartuptty /bye >/dev/null 2>&1 || true
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -130,3 +135,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # opencode
 export PATH=/home/vitorjustin/.opencode/bin:$PATH
+#export GPG_TTY=$(tty)
