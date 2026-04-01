@@ -7,6 +7,7 @@ alias clip="xclip -sel clip"
 alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
 alias gdm="git diff --name-only main...HEAD"
+alias code="/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
 
 # bat
 # https://github.com/sharkdp/bat?tab=readme-ov-file#git-diff

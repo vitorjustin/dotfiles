@@ -1,5 +1,0 @@
-#!/bin/bash
-
-VSCODE_PATH='/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft VS Code/Code.exe'
-
-"$VSCODE_PATH" "$1" &
