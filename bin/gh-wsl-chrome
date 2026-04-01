@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CHROME_LINUX_PATH="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+
+if [[ ! -x "$CHROME_LINUX_PATH" ]]; then
+  echo "Chrome not found at: $CHROME_LINUX_PATH" >&2
+  exit 1
+fi
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: $0 <url>" >&2
+  exit 2
+fi
+
+url="$1"
+chrome_win_path="$(wslpath -w "$CHROME_LINUX_PATH")"
+
+/mnt/c/Windows/System32/cmd.exe /c start "" "$chrome_win_path" "$url" >/dev/null 2>&1
