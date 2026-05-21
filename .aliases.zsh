@@ -61,6 +61,7 @@ alias s-miagui-homolog="ssh -o ServerAliveInterval=60 hmlapimiagui@45.178.182.83
 alias s-miagui-root="ssh -o ServerAliveInterval=60 root@45.178.182.83"
 alias s-neo-prod="ssh -o ServerAliveInterval=60 -p 51439 prodapi@45.178.180.228"
 alias s-neo-homolog="ssh -o ServerAliveInterval=60 -p 51439 homologapi@45.178.180.228"
+alias s-neo-dev="ssh -p 51439 dev@45.178.180.228"
 alias s-neo-root="ssh -p 51439 -o ServerAliveInterval=60 root@45.178.180.228"
 alias s-neo-global-root="ssh -p 51439 -o ServerAliveInterval=60 root@45.178.182.21"
 alias s-neo-global-prod="ssh -p 51439 -o ServerAliveInterval=60 gblprodapi@45.178.182.21"
