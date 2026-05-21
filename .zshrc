@@ -119,6 +119,7 @@ source ~/.config/ssh.conf
 alias png="oxipng -s --alpha --dir="compressed" *.png"
 
 export PATH="/home/vitorjustin/.config/herd-lite/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/vitorjustin/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
 
