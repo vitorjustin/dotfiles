@@ -55,6 +55,10 @@ alias sail="alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'"
 # WSL Bridge (https://github.com/Alex-D/dotfiles?tab=readme-ov-file#setup-docker)
 alias wslb="PowerShell.exe 'Start-Process PowerShell -Verb RunAs \"PowerShell -File \$env:USERPROFILE\\wsl2-bridge.ps1\"'"
 
+# opencode - toggle concise instruction
+alias concise-off="> ~/.config/opencode/instructions/concise.md"
+alias concise-on="echo 'Be extremely concise. Sacrifice grammar for the sake of concision.' > ~/.config/opencode/instructions/concise.md"
+
 # clients
 alias s-miagui-prod="ssh -o ServerAliveInterval=60 prodapimiagui@45.178.182.83"
 alias s-miagui-homolog="ssh -o ServerAliveInterval=60 hmlapimiagui@45.178.182.83"
