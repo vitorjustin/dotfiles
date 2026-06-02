@@ -20,6 +20,14 @@ battail() {
   tail -f "$1" | bat --paging=never -l log
 }
 
+# https://medium.com/@GroundControl/better-git-diffs-with-fzf-89083739a9cb
+fd() {
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview "$preview" --height=100% --preview-window=right:wrap
+}
+
+alias fdb="fd main...HEAD"
+
 ## EZA (better ls) or custom ls aliases
 if type eza >/dev/null 2>&1; then
     alias ls="eza --icons --git"
