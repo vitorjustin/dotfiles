@@ -66,3 +66,6 @@ alias wslb="PowerShell.exe 'Start-Process PowerShell -Verb RunAs \"PowerShell -F
 # opencode - toggle concise instruction
 alias concise-off="> ~/.config/opencode/instructions/concise.md"
 alias concise-on="echo 'Be extremely concise. Sacrifice grammar for the sake of concision.' > ~/.config/opencode/instructions/concise.md"
+
+# private aliases (gitignored) — clients, work servers, etc.
+[ -f ~/.aliases.private.zsh ] && source ~/.aliases.private.zsh
