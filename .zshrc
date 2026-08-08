@@ -137,3 +137,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # opencode
 export PATH=/home/vitorjustin/.opencode/bin:$PATH
 #export GPG_TTY=$(tty)
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/vitorjustin/.local/bin:$PATH"
