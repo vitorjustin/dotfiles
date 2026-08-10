@@ -8,6 +8,7 @@ alias open="explorer.exe"
 alias apt-upgrade="sudo apt update && sudo apt upgrade -y"
 alias gdm="git diff --name-only main...HEAD"
 alias code2="/mnt/c/Users/vitor/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
+alias dotfiles="cd ~/dotfiles"
 
 # bat
 # https://github.com/sharkdp/bat?tab=readme-ov-file#git-diff
@@ -55,6 +56,10 @@ alias whome="cd /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" 2>/dev/null | tr -d 
 # docker
 alias dcs="sudo /etc/init.d/docker start"
 alias dcstatus="sudo service docker status"
+
+# git
+alias gpush="git push origin HEAD"
+alias gfpush="git pull origin HEAD --force-with-lease"
 
 # laravel
 alias a="php artisan"
