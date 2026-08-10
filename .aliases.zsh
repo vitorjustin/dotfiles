@@ -59,7 +59,7 @@ alias dcstatus="sudo service docker status"
 
 # git
 alias gpush="git push origin HEAD"
-alias gfpush="git pull origin HEAD --force-with-lease"
+alias gfpush="git push origin HEAD --force-with-lease"
 
 # laravel
 alias a="php artisan"
