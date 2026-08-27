@@ -11,10 +11,6 @@ fi
 
 [[ -t 0 ]] && export GPG_TTY=$(tty)
 
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_THEME="powerlevel10k/powerlevel10k"
-
-source $ZSH/oh-my-zsh.sh
 #source ~/.profile
 
 # zinit setup
