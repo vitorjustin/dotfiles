@@ -1,2 +1,10 @@
 .config
 .aliases.private.zsh
+
+.config/ngrok/
+.config/herd-lite/bin/php
+.config/herd-lite/bin/composer
+.config/herd-lite/bin/laravel
+.env
+*.pem
+id_*
