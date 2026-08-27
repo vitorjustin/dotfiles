@@ -73,6 +73,37 @@ alias wslb="PowerShell.exe 'Start-Process PowerShell -Verb RunAs \"PowerShell -F
 # opencode - toggle concise instruction
 alias concise-off="> ~/.config/opencode/instructions/concise.md"
 alias concise-on="echo 'Be extremely concise. Sacrifice grammar for the sake of concision.' > ~/.config/opencode/instructions/concise.md"
+
+# opencode - auto commit
+commit() {
+  local interactive=""
+  local words=()
+  local arg
+
+  for arg in "$@"; do
+    if [[ "$arg" == "--mini" ]]; then
+      interactive="-i"
+    else
+      words+=("$arg")
+    fi
+  done
+
+  local message="${words[*]}"
+  local prompt
+
+  if [[ -n "$message" ]]; then
+    prompt="commit all. do atomic commits if possible. use this as the commit message/intent: \"$message\", adapting it to follow the latest 8 commits messages styling and language (pt-br or en)."
+  else
+    prompt="commit all. do atomic commits if possible. follow latest 8 commits messages styling and language (pt-br or en)."
+  fi
+
+  if [[ -n "$interactive" ]]; then
+    opencode run "$prompt" --model opencode-go/deepseek-v4-pro -i
+  else
+    opencode run "$prompt" --model opencode-go/deepseek-v4-pro --auto
+  fi
+}
+
 # today dir: creates <YYYYMMDD>_<counter>
 td() {
   local today n=1
