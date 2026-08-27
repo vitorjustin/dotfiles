@@ -71,6 +71,15 @@ alias wslb="PowerShell.exe 'Start-Process PowerShell -Verb RunAs \"PowerShell -F
 # opencode - toggle concise instruction
 alias concise-off="> ~/.config/opencode/instructions/concise.md"
 alias concise-on="echo 'Be extremely concise. Sacrifice grammar for the sake of concision.' > ~/.config/opencode/instructions/concise.md"
+# today dir: creates <YYYYMMDD>_<counter>
+td() {
+  local today n=1
+  today=$(date +%Y%m%d)
+  while [[ -e "$(printf '%s_%03d' "$today" "$n")" ]]; do
+    ((n++))
+  done
+  mkdir "$(printf '%s_%03d' "$today" "$n")"
+}
 
 # private aliases (gitignored) — clients, work servers, etc.
 [ -f ~/.aliases.private.zsh ] && source ~/.aliases.private.zsh
