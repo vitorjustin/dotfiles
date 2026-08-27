@@ -42,8 +42,8 @@ zinit ice atclone"dircolors -b LS_COLORS > clrs.zsh" \
     atload'zstyle ":completion:*" list-colors “${(s.:.)LS_COLORS}”'
 zinit light trapd00r/LS_COLORS
 
-# Load completions
-autoload -Uz compinit && compinit
+# Load completions (skip compaudit security scan on every launch)
+autoload -Uz compinit && compinit -C
 zinit cdreplay -q
 
 # nvim
