@@ -45,6 +45,7 @@ fi
 
 # config files
 alias zshconfig="vim ~/.zshrc"
+alias reload='source ~/.zshrc && rehash'
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias aliases="vim ~/dotfiles/.aliases.zsh"
 alias weztermconfig="vim /mnt/c/Users/vitor/.wezterm.lua"
@@ -56,6 +57,7 @@ alias whome="cd /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" 2>/dev/null | tr -d 
 # docker
 alias dcs="sudo /etc/init.d/docker start"
 alias dcstatus="sudo service docker status"
+alias docker-start="sudo systemctl start docker"
 
 # git
 alias gpush="git push origin HEAD"
