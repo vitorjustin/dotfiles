@@ -104,14 +104,15 @@ commit() {
   fi
 }
 
-# today dir: creates <YYYYMMDD>_<counter>
+# today dir: creates <YYYYMMDD>_<counter> and cds into it
 td() {
-  local today n=1
+  local today n=1 dir
   today=$(date +%Y%m%d)
   while [[ -e "$(printf '%s_%03d' "$today" "$n")" ]]; do
     ((n++))
   done
-  mkdir "$(printf '%s_%03d' "$today" "$n")"
+  dir="$(printf '%s_%03d' "$today" "$n")"
+  mkdir "$dir" && cd "$dir"
 }
 
 # private aliases (gitignored) — clients, work servers, etc.
