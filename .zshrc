@@ -137,3 +137,9 @@ export PATH=/home/vitorjustin/.opencode/bin:$PATH
 
 # Added by Antigravity CLI installer
 export PATH="/home/vitorjustin/.local/bin:$PATH"
+
+# Windows interop (explicit — appendWindowsPath=false in /etc/wsl.conf).
+# Only the dirs actually used by aliases: explorer.exe (open), cmd.exe/powershell.exe
+# (whome, wslb), cursor CLI. Add more here if a Windows binary is needed by name.
+export PATH="$PATH:/mnt/c/Windows:/mnt/c/Windows/System32:/mnt/c/Windows/System32/WindowsPowerShell/v1.0"
+export PATH="$PATH:/mnt/c/Users/vitor/AppData/Local/Programs/cursor/resources/app/bin"
