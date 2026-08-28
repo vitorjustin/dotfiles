@@ -85,6 +85,20 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
+# Report cwd to the terminal (OSC 7) so new tabs/splits open in the same dir.
+# Without it WezTerm asks Windows for the cwd and gets a \\wsl.localhost\...
+# UNC path that WSL can't chdir into. Previously came from oh-my-zsh.
+autoload -Uz add-zsh-hook
+_osc7_cwd() {
+  emulate -L zsh
+  setopt local_options extended_glob
+  local LC_ALL=C
+  printf '\e]7;file://%s%s\e\\' "$HOST" \
+    "${PWD//(#m)([^A-Za-z0-9_.\!~*\'\(\)\/-])/%${(l:2::0:)$(([##16]#MATCH))}}"
+}
+add-zsh-hook -Uz chpwd _osc7_cwd
+_osc7_cwd
+
 eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 
 # bat
