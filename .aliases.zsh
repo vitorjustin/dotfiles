@@ -98,9 +98,9 @@ commit() {
   fi
 
   if [[ -n "$interactive" ]]; then
-    opencode run "$prompt" --model opencode-go/deepseek-v4-pro -i
+    opencode2 mini --prompt "$prompt" --model opencode-go/deepseek-v4-flash
   else
-    opencode run "$prompt" --model opencode-go/deepseek-v4-pro --auto
+    opencode2 run "$prompt" --model opencode-go/deepseek-v4-flash --auto
   fi
 }
 
