@@ -62,7 +62,11 @@ alias docker-start="sudo systemctl start docker"
 # git
 alias gpush="git push origin HEAD"
 alias gfpush="git push origin HEAD --force-with-lease"
-alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
+# OMZP::git's ggsup needs git_current_branch from OMZL::git, which we don't load.
+unalias ggsup 2>/dev/null
+ggsup() {
+  git branch --set-upstream-to="origin/$(git branch --show-current)"
+}
 
 # laravel
 alias a="php artisan"
