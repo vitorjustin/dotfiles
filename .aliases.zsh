@@ -62,6 +62,7 @@ alias docker-start="sudo systemctl start docker"
 # git
 alias gpush="git push origin HEAD"
 alias gfpush="git push origin HEAD --force-with-lease"
+alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 
 # laravel
 alias a="php artisan"
