@@ -121,5 +121,30 @@ td() {
   mkdir "$dir" && cd "$dir"
 }
 
+# timer: run a command and report start time, end time, and total duration
+# usage: timer <command> [args...]
+#   e.g. timer npm run build
+timer() {
+  if [[ $# -eq 0 ]]; then
+    echo "usage: timer <command> [args...]" >&2
+    return 1
+  fi
+
+  local start_ts=$(date +%s)
+  local start_fmt=$(date '+%H:%M:%S')
+
+  "$@"
+
+  local rc=$?
+  local end_ts=$(date +%s)
+  local end_fmt=$(date '+%H:%M:%S')
+  local elapsed=$((end_ts - start_ts))
+
+  printf '\n⏱  start: %s | end: %s | total: %dm %02ds (exit %d)\n' \
+    "$start_fmt" "$end_fmt" $((elapsed / 60)) $((elapsed % 60)) "$rc"
+
+  return "$rc"
+}
+
 # private aliases (gitignored) — clients, work servers, etc.
 [ -f ~/.aliases.private.zsh ] && source ~/.aliases.private.zsh
