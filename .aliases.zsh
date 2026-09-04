@@ -62,6 +62,7 @@ alias docker-start="sudo systemctl start docker"
 # git
 alias gpush="git push origin HEAD"
 alias gfpush="git push origin HEAD --force-with-lease"
+alias gsummary="git summary"
 # OMZP::git's ggsup needs git_current_branch from OMZL::git, which we don't load.
 unalias ggsup 2>/dev/null
 ggsup() {
