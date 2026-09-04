@@ -1,55 +1,73 @@
 # Global coding standards
 
-These are implicit coding standards: they are always in force, in every
-project, in every language, under every agent tool, whether or not the repo
-documents them. A repo that says nothing about them has not opted out — read
-them as if they were written into that repo's own standards file.
+These apply in every project, every language, under every agent tool, whether
+or not the repo documents them. A repo that says nothing about them has not
+opted out — read them as if written into that repo's own standards file.
 
-When reviewing code, treat a breach of one of these as a documented standards
-violation, not a judgement call, and cite it by name.
+**Tests** and **Git & Commits** are standards: treat a breach as a documented
+violation, not a judgement call, and cite it by name in review.
+**Shell & Search** and **Review Guardrails** are operating rules: follow them
+while working, but they describe how an agent behaves, not what a diff must
+satisfy — don't cite them as review findings.
 
 ## Tests
 
-- Tautological tests considered harmful.
+- **Tautological tests considered harmful**: a test that can't fail proves
+  nothing. This includes a test that asserts a mock's own stubbed return
+  value, re-implements the logic under test instead of exercising it, or
+  checks that a framework/library does what the framework already
+  guarantees. Cite it as this standard when a test only restates its setup.
 
 ## Git & Commits
 
-- **Pre-commit inspection**: Before staging or committing, run `git summary` to see
-  modified/untracked files and the diff stat in a single turn. It reports staged and
-  unstaged changes together, so it stays accurate after `git add`.
-- **Commit only your changes**: Never stage unrelated, untracked, or temporary files
-  (`.scratch/`, `/tmp/`, or cross-repo docs). Inspect `git summary` first.
-- **Commit message style and language**: Do not assume from the repository name. Read
-  `git log -8 --pretty=%s` and match those commits' styling and language (pt-BR or
-  English). The repository's own history is the authority; follow it even when it
-  contradicts your default. Weight the most recent commits: if the sample is mixed —
-  some `feat:`/`fix:` prefixes, some bare sentence case — the repo is mid-migration, so
-  follow the newest convention rather than the majority. Ignore trailing `(#123)` PR
-  number suffixes; those come from squash merges, never invent one.
-- **Atomic commits**: Group related changes into distinct, atomic commits rather than
-  one monolithic commit.
+- **Pre-commit inspection**: before staging or committing, run `git summary`
+  (a `~/.gitconfig` alias: `git status --short`, then `git diff --stat HEAD`
+  — or `--cached` before the first commit — so staged and unstaged changes
+  both show). If the alias isn't set up on this machine, run that sequence
+  directly. It's inventory, not review — still read the actual patch
+  (`git diff` / `git diff --cached`) before writing the commit message.
+- **Commit only your changes**: never stage unrelated, untracked, or
+  temporary files (`.scratch/`, `/tmp/`, cross-repo docs).
+- **Commit message style and language**: don't infer from the repository
+  name. If the repository has commits, read `git log -8 --pretty=%s` and
+  match that history's style and language (pt-BR or English) — it is the
+  authority, even against your default. Weight recent commits: a mixed
+  sample (some `feat:`/`fix:` prefixes, some bare sentence case) means the
+  repo is mid-migration, so follow the newest convention, not the majority.
+  Ignore trailing `(#123)` PR-number suffixes (squash-merge artifacts) —
+  never invent one.
+- **Atomic commits**: group related changes into distinct commits rather
+  than one monolithic commit.
 
-## Shell & Search Standards
+## Shell & Search
 
-- **Literal search first (Ripgrep)**: Always prefer `rg -F` (or `rg --fixed-strings`)
-  when searching for class names, PHP namespaces (`App\Services\...`), or file paths
-  containing backslashes. This avoids the Rust regex engine reading `\P`, `\S` or `\d`
-  as regex escapes.
-- **Regex escaping**: If a regex is strictly required over content with backslashes,
-  write `\\` for each literal backslash inside single quotes
-  (`rg 'App\\Services\\User'`), or use `-g` glob flags instead of path regexes.
-  Do not double it again to `\\\\` — under single quotes that matches two literal
-  backslashes and silently finds nothing.
-- **Read files in whole useful units**: Prefer one large read over several chunked ones.
-  Repeated 200-line `sed -n` windows are the expensive pattern: each extra turn re-sends
-  the whole conversation, so five 200-line reads cost far more than one 1000-line read.
-  Read the entire file when it is reasonably sized; otherwise target it directly with
-  `rg -n -C 10 <pattern>` and read the range that matters.
-- **Symlinks in home directory**: Do not attempt to write directly to symlinks in home
-  directories (e.g., `~/.zshrc`, `~/.agents/AGENTS.md`); resolve and edit the underlying
-  source file in `~/dotfiles`.
+- **Literal search first (ripgrep)**: prefer `rg -F` / `rg --fixed-strings`
+  for class names, PHP namespaces (`App\Services\...`), or any string with
+  backslashes — otherwise the regex engine reads `\P`, `\S`, `\d` as regex
+  escapes. If a regex is unavoidable over such content, a literal backslash
+  under single quotes is `\\` (`rg 'App\\Services\\User'`) — do not double
+  it to `\\\\`, which silently matches zero results instead of erroring.
+  Prefer `-g` glob flags over path regexes for filtering by path.
+- **Read files in whole useful units**: prefer one large read over several
+  chunked ones — each extra chunked-read turn re-sends the whole
+  conversation, so repeated 200-line `sed -n` windows cost more than one
+  larger read. Read a file whole when it is under ~2000 lines *and* under
+  ~100 KB; check with `wc -lc` when unsure. Both bounds matter: minified
+  and bundled output can be two lines and several megabytes, so a line
+  count alone will wave it through. Never whole-read lockfiles
+  (`composer.lock`, `yarn.lock`, `package-lock.json`), generated or vendor
+  files, or minified/bundled output at any size. Target those, and anything
+  past the bounds, with `rg -n -C 10 <pattern>` and read only the matched
+  range.
+- **Symlinks in home directory**: don't write directly to symlinks in home
+  directories (e.g. `~/.zshrc`, `~/.agents/AGENTS.md`); resolve and edit the
+  underlying source file in `~/dotfiles`.
 
 ## Review Guardrails
 
-- **Review mode is strictly READ-ONLY**: When assigned a review, audit, or incident inspection task (e.g., server downtime), NEVER edit files, stage commits, or execute mutating commands unless explicitly instructed.
-- **No external CodeRabbit CLI**: Never invoke the `coderabbit` CLI or external CodeRabbit tools for code reviews. Perform all code reviews directly using codebase inspection and agent analysis.
+- **Review mode is strictly READ-ONLY**: when assigned a review, audit, or
+  incident inspection (e.g. server downtime), never edit files, stage
+  commits, or run mutating commands unless explicitly instructed.
+- **No external CodeRabbit CLI**: never invoke the `coderabbit` CLI or other
+  external CodeRabbit tooling for code review. Perform reviews directly via
+  codebase inspection and agent analysis.
